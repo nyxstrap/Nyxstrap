@@ -142,5 +142,5 @@ Cloudstrap is built using **C#**.
 
 [repo-releases]:          https://github.com/cloudstrap-dev/Cloudstrap/releases
 [repo-latest]:            https://github.com/cloudstrap-dev/Cloudstrap/releases/latest
-[repo-stars]:        https://github.com/cloudstrap-dev/Cloudstrap/stargazers
+[repo-stargazers]:        https://github.com/cloudstrap-dev/Cloudstrap/stargazers
 [discord-invite]:         https://discord.gg/P3HUKK8xcM
