@@ -137,7 +137,7 @@ Cloudstrap is built using **C#**.
 [shield-repo-total]:      https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/total?color=8a2be2
 [shield-repo-latest]:     https://img.shields.io/github/v/release/cloudstrap-dev/Cloudstrap?color=7a39fb
 [shield-repo-stars]:      https://img.shields.io/github/stars/cloudstrap-dev/Cloudstrap?color=ffd700
-[shield-discord-server]:  https://img.shields.io/discord/1327967202015580223?logo=discord&logoColor=white&label=Discord&color=4d3dff
+[shield-discord-server]:  https://img.shields.io/discord/1500364173102547028?logo=discord&logoColor=white&label=Discord&color=4d3dff
 [repo-url]: https://github.com/cloudstrap-dev/Cloudstrap
 
 [repo-releases]:          https://github.com/cloudstrap-dev/Cloudstrap/releases
