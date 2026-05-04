@@ -1,7 +1,9 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/cloudstrap-dev/Cloudstrap/main/Bloxstrap/Cloudstrap.png" width="150px"/>
+<img src="https://raw.githubusercontent.com/cloudstrap-dev/Cloudstrap/main/Bloxstrap/Cloudstrap.png" width="125px"/>
 </a>
 </p>
+
+<h1 align="center"><b>Cloudstrap</b></h1>
 
 [![Total Downloads][shield-repo-total]][repo-releases]
 [![Latest Downloads][shield-repo-downloads]][repo-latest]
@@ -19,7 +21,7 @@ Cloudstrap is a fast and lightweight Roblox bootstrapper that aims to improve yo
 Download the latest release [here][repo-latest]
 
 Found any bugs or issues?
-👉 [Submit an issue](https://github.com/ItzBloxxy/BubbleStrap/issues/new/choose)
+👉 [Submit an issue](https://github.com/cloudstrap-dev/Cloudstrap/issues/new/choose)
 
 <hr>
 
@@ -43,6 +45,8 @@ Found any bugs or issues?
   - Set custom integrations (You can have other programs launch automatically with Roblox)
 
 </details>
+
+<details>
 
   <summary><strong>Bootstrapper</strong></summary>
 
@@ -119,22 +123,21 @@ Cloudstrap is built using **C#**.
  </picture>
 </a>
 
-## Join our Discord Server 👇
+<br>
 
 <p align="center">
   <a href="https://discord.gg/P3HUKK8xcM">
     <img src="https://invidget.switchblade.xyz/P3HUKK8xcM">
   </a>
 </p>
-  
-[shield-repo-downloads]:  https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/latest/total?color=981bfe
-[shield-repo-total]:      https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/total?color=8a2be2
-[shield-repo-latest]:     https://img.shields.io/github/v/release/cloudstrap-dev/Cloudstrap?color=7a39fb
-[shield-repo-stars]:      https://img.shields.io/github/stars/cloudstrap-dev/Cloudstrap?color=ffd700
+
+[shield-repo-downloads]: https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/latest/total?color=981bfe
+[shield-repo-stars]: https://img.shields.io/github/stars/cloudstrap-dev/Cloudstrap?color=ffd700
+[shield-repo-latest]: https://img.shields.io/github/v/release/cloudstrap-dev/Cloudstrap?color=7a39fb
+[repo-url]: https://github.com/cloudstrap-dev/Cloudstrap
 [shield-discord-server]:  https://img.shields.io/discord/1327967202015580223?logo=discord&logoColor=white&label=Discord&color=4d3dff
 
 [repo-releases]:          https://github.com/cloudstrap-dev/Cloudstrap/releases
 [repo-latest]:            https://github.com/cloudstrap-dev/Cloudstrap/releases/latest
 [repo-stargazers]:        https://github.com/cloudstrap-dev/Cloudstrap/stargazers
 [discord-invite]:         https://discord.gg/P3HUKK8xcM
-[repo-url]:               https://github.com/cloudstrap-dev/Cloudstrap

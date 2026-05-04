@@ -113,7 +113,7 @@ namespace Bloxstrap.UI
         {
             var notifyIcon = new System.Windows.Forms.NotifyIcon
             {
-                Icon = Properties.Resources.IconBubblestrap,
+                Icon = Properties.Resources.IconCloudstrap,
                 Text = App.ProjectName,
                 Visible = true
             };

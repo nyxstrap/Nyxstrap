@@ -13,7 +13,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
 
             DataContext = viewModel;
             InitializeComponent();
-            App.BubbleRPC?.SetDialog("Language Selector");
+            App.CloudRPC?.SetDialog("Language Selector");
 
             viewModel.CloseRequestEvent += (_, _) => Close();
         }

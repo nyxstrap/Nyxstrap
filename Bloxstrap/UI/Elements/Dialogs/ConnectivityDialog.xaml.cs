@@ -19,7 +19,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
         public ConnectivityDialog(string title, string description, MessageBoxImage image, Exception exception)
         {
             InitializeComponent();
-            App.BubbleRPC?.SetDialog("Connectivity");
+            App.CloudRPC?.SetDialog("Connectivity");
 
             string? iconFilename = null;
             SystemSound? sound = null;

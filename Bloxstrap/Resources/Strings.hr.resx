@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>Bubblestrap se nije uspio automatski ažurirati na verziju {0}. Molimo ažurirajte ju ručno tako da je preuzmete i pokrenete sa web-stranice.</value>
+    <value>Cloudstrap se nije uspio automatski ažurirati na verziju {0}. Molimo ažurirajte ju ručno tako da je preuzmete i pokrenete sa web-stranice.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>Roblox je trenutno pokrenut, pokretanje nove instance ćete ga ugasiti. Jeste li sigurni da želite nastaviti sa pokretanjem?</value>
@@ -68,13 +68,13 @@
     <value>Roblox trenutno možda ne radi. Pogledajte {0} za više informacija.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Veza se nije mogla uspostaviti, što vjerojatno ukazuje na nestabilnu internetsku vezu ili blokadu vatrozida. Ako je Vaša veza u redu, molimo provjerite blokira li Vaš antivirus Bubblestrap.</value>
+    <value>Veza se nije mogla uspostaviti, što vjerojatno ukazuje na nestabilnu internetsku vezu ili blokadu vatrozida. Ako je Vaša veza u redu, molimo provjerite blokira li Vaš antivirus Cloudstrap.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Vi morate prvo instalirati Bubblestrap pre deinstaliranja.</value>
+    <value>Vi morate prvo instalirati Cloudstrap pre deinstaliranja.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>Bubblestrap nema dovoljno prostora na disku kako bi preuzeo i instalirao Roblox. Molimo, oslobodite nešto prostora pa zatim pokušajte ponovno.</value>
+    <value>Cloudstrap nema dovoljno prostora na disku kako bi preuzeo i instalirao Roblox. Molimo, oslobodite nešto prostora pa zatim pokušajte ponovno.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Primjenjuju se modifikacije za Roblox...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Bubblestrap je uspješno deinstaliran</value>
+    <value>Cloudstrap je uspješno deinstaliran</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox se trenutno pokreće, ali mora biti zatvoren prije nego što se Bubblestrap deinstalira. Želite li ugasiti Roblox sada?</value>
+    <value>Roblox se trenutno pokreće, ali mora biti zatvoren prije nego što se Cloudstrap deinstalira. Želite li ugasiti Roblox sada?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>Roblox zahtijeva upotrebu Windows Media Foundation komponenta. Izgleda da Vam nedostaju, vjerojatno zato što koristite N izadnje Windows-a. Molimo, prvo ih instalirajte, a zatim pokrenite Roblox.</value>
@@ -217,21 +217,21 @@ Kliknite za više informacija</value>
     <value>Greška sa povezivanjem</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Bubblestrap se ne može povezati na {0}</value>
+    <value>Cloudstrap se ne može povezati na {0}</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Kopiraj sadržaj log datoteke</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Došlo je do izuzetka tokom pokretanja Bubblestrap-a</value>
+    <value>Došlo je do izuzetka tokom pokretanja Cloudstrap-a</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
     <value>Prvo provjerite [Bloxstrap Wiki]({0}) kako biste vidjeli je li ovaj problem već riješen.
 Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopijom log datoteke koja je bila stvorena.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Bubblestrap Izuzetak</value>
+    <value>Cloudstrap Izuzetak</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Prilagođeno</value>
@@ -243,10 +243,10 @@ Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopi
     <value>Kasna 2015-ta</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (Klasično)</value>
+    <value>Cloudstrap (Klasično)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (Stakleno)</value>
+    <value>Cloudstrap (Stakleno)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Nasledje (2008-2011)</value>
@@ -324,10 +324,10 @@ Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopi
     <value>Svjetlo</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>Bubblestrap je nadograđen na v{0}</value>
+    <value>Cloudstrap je nadograđen na v{0}</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Verzija Bubblestrapa koju ste pokrenuli je drukčija od verzije koju imate instaliranu. Želite li nadograditi svoju trenutno instaliranu verziju?</value>
+    <value>Verzija Cloudstrapa koju ste pokrenuli je drukčija od verzije koju imate instaliranu. Želite li nadograditi svoju trenutno instaliranu verziju?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
     <value>Doprinositelji</value>
@@ -336,7 +336,7 @@ Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopi
     <value>Kod</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Ovo su ljudi koji su dali značajan doprinos Bubblestrapu, Pomagajući da se učiniti onakvim kakav jest.</value>
+    <value>Ovo su ljudi koji su dali značajan doprinos Cloudstrapu, Pomagajući da se učiniti onakvim kakav jest.</value>
   </data>
   <data name="Menu.About.Contributors.FeatureIdeas" xml:space="preserve">
     <value>Značajne Ideje</value>
@@ -382,7 +382,7 @@ Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopi
     <value>Imajte na umu da se sve vaše promjene neće odmah primijeniti dok ne zatvorite sve trenutno otvorene instance Robloxa.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Bubblestrap je već pokrenut</value>
+    <value>Cloudstrap je već pokrenut</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>Možete ga prilagoditi da izgleda drugačije, retro ili čak samo kao Roblox.</value>
@@ -409,7 +409,7 @@ Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopi
     <value>Naslov</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Konfigurirajte kako da Bubblestrap izgleda.</value>
+    <value>Konfigurirajte kako da Cloudstrap izgleda.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Globalna tema</value>
@@ -433,10 +433,10 @@ Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopi
     <value>Izgled</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>Bubblestrap će se automatski provjeriti i ažurirati kada se Roblox pokrene.</value>
+    <value>Cloudstrap će se automatski provjeriti i ažurirati kada se Roblox pokrene.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Automatsko Ažuriranje Bubblestrap-a</value>
+    <value>Automatsko Ažuriranje Cloudstrap-a</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Spriječite zatvaranje postojeće igre zbog slučajnog pokretanja druge.</value>
@@ -445,7 +445,7 @@ Ako nije, molimo prijavite ovu iznimku preko [GitHub issue]({1}) zajedno sa kopi
     <value>Zatraži potvrdu prilikom pokretanja druge Roblox instance</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Konfigurirajte što da Bubblestrap napravi kada pokreće Roblox.</value>
+    <value>Konfigurirajte što da Cloudstrap napravi kada pokreće Roblox.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Roblox će biti svježe instaliran pri sljedećem pokretanju.</value>
@@ -545,10 +545,10 @@ Jeste li sigurni da želite nastaviti?</value>
     <value>Datoteke ikona</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Bubblestrap ne može biti instaliran ovdje. Molimo, odaberite drugu lokaciju, ili koristite zadanu lokaciju tako da kliknete gumb za resetiranje.</value>
+    <value>Cloudstrap ne može biti instaliran ovdje. Molimo, odaberite drugu lokaciju, ili koristite zadanu lokaciju tako da kliknete gumb za resetiranje.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Mapa koju ste odabrali za instalaciju Bubblestrapa već postoji i NIJE prazna. Toplo se preporučuje da se Bubblestrap instalira u nezavisnoj mapi.
+    <value>Mapa koju ste odabrali za instalaciju Cloudstrapa već postoji i NIJE prazna. Toplo se preporučuje da se Cloudstrap instalira u nezavisnoj mapi.
 Promjena na iduću lokaciju je preporučena: {0}
 Želite li promjeniti na preporučenu lokaciju? Odabirom "Ne" ćete ignorirati ovo upozorenje i nastaviti instalaciju.</value>
     <comment>{0} is a file path</comment>
@@ -557,7 +557,7 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Morate postaviti lokaciju instalacije</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>Bubblestrap nema write pristup lokaciji koju ste odabrali. Molimo odaberite drugu lokaciju.</value>
+    <value>Cloudstrap nema write pristup lokaciji koju ste odabrali. Molimo odaberite drugu lokaciju.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Praćenje aktivnosti</value>
@@ -608,7 +608,7 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Ne izlazite iz Desktop aplikacije</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Dopušta Bubblestrapu da detektira koju Roblox igru igrate. Neki dodatci možda zahtjevaju ovo.</value>
+    <value>Dopušta Cloudstrapu da detektira koju Roblox igru igrate. Neki dodatci možda zahtjevaju ovo.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Odobrite praćenje aktivnosti</value>
@@ -699,7 +699,7 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Postavke spremljenje!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Bubblestrap postavke</value>
+    <value>Cloudstrap postavke</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Odaberi preferirani jezik</value>
@@ -723,7 +723,7 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Korisničko sučelje i Raspored</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Dozvoli Bubblestrap-u da upravlja s Fast Flags</value>
+    <value>Dozvoli Cloudstrap-u da upravlja s Fast Flags</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Onemogućavanje će spriječiti da se bilo što ovdje konfigurirano primjeni na Roblox.</value>
@@ -735,7 +735,7 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Spriječava ju od pojavljivanja kad god pomaknete miš na vrh ekrana.</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Bubblestrap ne može preuzeti Roblox</value>
+    <value>Cloudstrap ne može preuzeti Roblox</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>Roblox se trenutno ne može preuzeti. Molimo pročitajte sljedeću stranicu za pomoć za više informacija: {0}</value>
@@ -756,7 +756,7 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Unos za '{0}' ne važi jer vrijednost mora biti broj</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Log datoteka neće biti napisana za ovaj pokret jer Bubblestrap ne može pisati u folderu na '{0}'</value>
+    <value>Log datoteka neće biti napisana za ovaj pokret jer Cloudstrap ne može pisati u folderu na '{0}'</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Zadano</value>
@@ -771,7 +771,7 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Unos za '{0}' nije valjan jer filter mjesta nije formatiran pravilno.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Instalator Bubblestrapa</value>
+    <value>Instalator Cloudstrapa</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Dobrodošli</value>
@@ -790,16 +790,16 @@ Promjena na iduću lokaciju je preporučena: {0}
     <value>Dalje</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Hvala što ste preuzeli Bubblestrap.
-Jedine službene web-stranice za preuzimanje Bubblestrapa su {0} i {1}, molimo Vas da provjerite jeste li ga preuzeli sa službenog izvora.
-Proces instalacije će biti brz i jednostavan, i moći ćete konfigurirati bilo koje Bubblestrap postavke nakon instalacije.</value>
+    <value>Hvala što ste preuzeli Cloudstrap.
+Jedine službene web-stranice za preuzimanje Cloudstrapa su {0} i {1}, molimo Vas da provjerite jeste li ga preuzeli sa službenog izvora.
+Proces instalacije će biti brz i jednostavan, i moći ćete konfigurirati bilo koje Cloudstrap postavke nakon instalacije.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Molimo kliknite 'Dalje' da biste nastavili.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Pokušavate instalirati verziju {0} Bubblestrapa, ali najnovija dostupna verzija je {1}. Želite li ju preuzeti?</value>
+    <value>Pokušavate instalirati verziju {0} Cloudstrapa, ali najnovija dostupna verzija je {1}. Želite li ju preuzeti?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Odaberite gdje želite instalirati</value>
@@ -820,13 +820,13 @@ Proces instalacije će biti brz i jednostavan, i moći ćete konfigurirati bilo 
     <value>Start Meni ikona</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>Bubblestrap se je uspješno instalirao.
-Roblox još nije bio instaliran, to će se dogoditi kada ga pokrenete s Bubblestrapom prvi put. Ali, prije nego li to napravite, možda biste htjeli prvo konfigurirati Bubblestrap postavke.
-Isto tako, izbjegnite koristiti "Roblox Player" prečac za pokretanje Roblox-a, jer se Bubblestrap neće pokrenuti s Roblox-om. Ako ne vidite Bubblestrap kako se pojavljuje kada pokrećete s web-stranice, samo pokrenite Roblox sa Bubblestrapom jedan put s desktopa da biste to popravili.
+    <value>Cloudstrap se je uspješno instalirao.
+Roblox još nije bio instaliran, to će se dogoditi kada ga pokrenete s Cloudstrapom prvi put. Ali, prije nego li to napravite, možda biste htjeli prvo konfigurirati Cloudstrap postavke.
+Isto tako, izbjegnite koristiti "Roblox Player" prečac za pokretanje Roblox-a, jer se Cloudstrap neće pokrenuti s Roblox-om. Ako ne vidite Cloudstrap kako se pojavljuje kada pokrećete s web-stranice, samo pokrenite Roblox sa Cloudstrapom jedan put s desktopa da biste to popravili.
 Što biste htjeli napraviti?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Konfigurirajte Bubblestrap postavke</value>
+    <value>Konfigurirajte Cloudstrap postavke</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Igrajte se sa svim značajkama koje Vam nudi</value>
@@ -838,19 +838,19 @@ Isto tako, izbjegnite koristiti "Roblox Player" prečac za pokretanje Roblox-a, 
     <value>Prebacit će Vas u desktop aplikaciju kad je sve gotovo</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Deinstaliraj Bubblestrap</value>
+    <value>Deinstaliraj Cloudstrap</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Deinstaliranje će maknuti Bubblestrap s Vašeg sustava, i automatski rekonfigurirati zadani Roblox pokretač ako je još dalje instaliran.
+    <value>Deinstaliranje će maknuti Cloudstrap s Vašeg sustava, i automatski rekonfigurirati zadani Roblox pokretač ako je još dalje instaliran.
 Ako deinstalirate ili reinstalirate zato što imate poteškoće s Roblox-om, prvo pročitajte [ovu stranicu za pomoć]({0}).
-Proces deinstalacije se možda neće moći počistiti do kraja sam sa sobom, pa ćete možda trebati ručno počistiti bilo koje preostale datoteke gdje je Bubblestrap bio instaliran.
-Bubblestrap je bio instaliran na "{1}".</value>
+Proces deinstalacije se možda neće moći počistiti do kraja sam sa sobom, pa ćete možda trebati ručno počistiti bilo koje preostale datoteke gdje je Cloudstrap bio instaliran.
+Cloudstrap je bio instaliran na "{1}".</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Zadrži moje postavke i modifikacije</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Biti će zadržani na mjestu gdje je Bubblestrap bio instaliran, i bit će automatski vraćeni na reinstalaciji.</value>
+    <value>Biti će zadržani na mjestu gdje je Cloudstrap bio instaliran, i bit će automatski vraćeni na reinstalaciji.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Deinstaliraj</value>
@@ -871,18 +871,18 @@ Bubblestrap je bio instaliran na "{1}".</value>
     <value>Trenutno nemate WebView2 runtime instaliran. Neke Roblox-ove značajke neće raditi ispravno bez toga, poput desktop aplikacije. Želite li to sada preuzeti?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>Bubblestrap nije mogao kreirati prečace za Desktop i Start Meni. Pokušajte ih kreirati kasnije preko postavki.</value>
+    <value>Cloudstrap nije mogao kreirati prečace za Desktop i Start Meni. Pokušajte ih kreirati kasnije preko postavki.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
     <value>Prvo pogledajte [Bloxstrap Wiki]({0}) kako biste vidjeli je li ovaj problem već bio adresiran s popravkom.
-Ako nije, onda molimo prijavite ovu iznimku održavateljima ovog fork-a. NEMOJTE ovo prijaviti na Bubblestrapove GitHub probleme, jer ovo nije službena inačica.</value>
+Ako nije, onda molimo prijavite ovu iznimku održavateljima ovog fork-a. NEMOJTE ovo prijaviti na Cloudstrapove GitHub probleme, jer ovo nije službena inačica.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Ovo su opći prečaci koji pokažu izbornik za pokretanje s više izbora. Prečaci za specifične funkcije mogu biti kreirane kasnije u postavkama.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Konfigurirajte kako Bubblestrap može biti spremno pokrenut.</value>
+    <value>Konfigurirajte kako Cloudstrap može biti spremno pokrenut.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Općenito</value>
@@ -919,7 +919,7 @@ Ako nije, onda molimo prijavite ovu iznimku održavateljima ovog fork-a. NEMOJTE
     <value>Imate promjene koje niste spremili. Jeste li sigurni da želite zatvoriti bez spremanja?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Verzija Bubblestrapa koju ste pokrenuli je starija od verzije koju trenutno imate instaliranu.
+    <value>Verzija Cloudstrapa koju ste pokrenuli je starija od verzije koju trenutno imate instaliranu.
 Problemi se mogu pojaviti i postavke će se možda promijeniti. Reinstalacija je preporučena.
 Jeste li sigurni da želite nastaviti?</value>
   </data>
@@ -931,7 +931,7 @@ Jeste li sigurni da želite nastaviti?</value>
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Za informacije o tome zašto bi se ovo moglo događati i kako se može riješiti, molimo pročitajte [ovaj članak za pomoć]({0}).
-Provjerite radi li Robloxov [originalni pokretač]({1}). Ako ne radi, onda ovo nije poteškoća kod Bubblestrapa. Ako radi, onda pogledajte članak za pomoć.</value>
+Provjerite radi li Robloxov [originalni pokretač]({1}). Ako ne radi, onda ovo nije poteškoća kod Cloudstrapa. Ako radi, onda pogledajte članak za pomoć.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Nije moguće učitati podatke zbog greške s mrežom.</value>
@@ -967,11 +967,11 @@ Provjerite radi li Robloxov [originalni pokretač]({1}). Ako ne radi, onda ovo n
     <value>Za ovaj pokret, Roblox se neće provjeriti za nadogradnje i promjene modifikacijama se neće primijeniti.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Bubblestrap ne može nastaviti zato što Roblox treba biti instaliran ili nadograđen.</value>
+    <value>Cloudstrap ne može nastaviti zato što Roblox treba biti instaliran ili nadograđen.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>Bubblestrap se je prije instalirao na ovu lokaciju i još dalje je prisutan, ali instalator ne može prebrisati staru izvršnu datoteku.
-Molimo ručno izbrišite Bubblestrap.exe iz lokacije instalacije ili pokušajte ponovno pokrenuti Vaš sustav, i onda ponovno probajte instalirati nakon.</value>
+    <value>Cloudstrap se je prije instalirao na ovu lokaciju i još dalje je prisutan, ali instalator ne može prebrisati staru izvršnu datoteku.
+Molimo ručno izbrišite Cloudstrap.exe iz lokacije instalacije ili pokušajte ponovno pokrenuti Vaš sustav, i onda ponovno probajte instalirati nakon.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Nije dostupno</value>
@@ -983,7 +983,7 @@ Molimo ručno izbrišite Bubblestrap.exe iz lokacije instalacije ili pokušajte 
     <value>Konfigurirajte parametre aplikacije kao što je ponašanje DPI skaliranja i [optimizacije cijelog zaslona]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>Roblox još nije bio instaliran. Molimo pokrenite Roblox koristeći Bubblestrap barem jednom prije pokušavanja korištenja ove opcije.</value>
+    <value>Roblox još nije bio instaliran. Molimo pokrenite Roblox koristeći Cloudstrap barem jednom prije pokušavanja korištenja ove opcije.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Jeste li sigurni da želite prekinuti instalaciju?</value>
@@ -1000,10 +1000,10 @@ Molimo ručno izbrišite Bubblestrap.exe iz lokacije instalacije ili pokušajte 
     <value>Izdvojite Roblox ikone u mapu</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Dopušta Vam da koristite Bubblestrapov raspon Roblox ikona za Vaše prečace. [Pogledajte kako.]({0})</value>
+    <value>Dopušta Vam da koristite Cloudstrapov raspon Roblox ikona za Vaše prečace. [Pogledajte kako.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Bubblestrap ne može pisati u Windows Registar. Antivirus se vjerojatno miješa i proizvodi poteškoće. Molimo provjerite postoji li išta što bi moglo ograničiti Bubblestrapove operacije.</value>
+    <value>Cloudstrap ne može pisati u Windows Registar. Antivirus se vjerojatno miješa i proizvodi poteškoće. Molimo provjerite postoji li išta što bi moglo ograničiti Cloudstrapove operacije.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Resetira sve na zadane postavke</value>
@@ -1038,7 +1038,7 @@ Kada uključen, automatski će pokrenuti Roblox nakon zatvaranja postavki, i pon
     <value>Prilagođeno</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>Bubblestrap je pokušao ažurirati Roblox, ali ne može jer se Robloxove datoteke još dalje koriste.
+    <value>Cloudstrap je pokušao ažurirati Roblox, ali ne može jer se Robloxove datoteke još dalje koriste.
 Molimo zatvorite bilo koju aplikaciju koja bi mogla koristiti Robloxove datoteke, i ponovno pokrenite.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1048,17 +1048,17 @@ Molimo zatvorite bilo koju aplikaciju koja bi mogla koristiti Robloxove datoteke
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Izvezi</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Cloudstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Nešto vjerojatno prekida Bubblestrap od spajanja na internet.</value>
+    <value>Nešto vjerojatno prekida Cloudstrap od spajanja na internet.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>Veza je istekla, što može naznačiti lošu internetsku vezu ili blokadu vatrozida.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>Promijenite postavke raspoređivanja i instalacije za Roblox i Bubblestrap.</value>
+    <value>Promijenite postavke raspoređivanja i instalacije za Roblox i Cloudstrap.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>Kanal</value>
@@ -1076,7 +1076,7 @@ Molimo zatvorite bilo koju aplikaciju koja bi mogla koristiti Robloxove datoteke
     <value>Roblox više ne podržava Windows 7 i 8.1. Da biste nastavili igrati Roblox, nadogradite na Windows 10 ili novije.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Dobivanje najnovije verzije Bubblestrapa...</value>
+    <value>Dobivanje najnovije verzije Cloudstrapa...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Prazno</value>
@@ -1235,7 +1235,7 @@ Molimo zatvorite bilo koju aplikaciju koja bi mogla koristiti Robloxove datoteke
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Neuspjelo postavljanje prilagođenog pokretača: {0}.
 Prebacivanje na zadani {1}.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Cloudstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Nije odabrana niti jedna prilagođena tema.</value>
@@ -1302,7 +1302,7 @@ Prebacivanje na zadani {1}.</value>
     <value>Uredi</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>O Bubblestrapu</value>
+    <value>O Cloudstrapu</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Vrijeme neprekidnog rada</value>
@@ -1323,11 +1323,11 @@ Dostupnost: {1}</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Onemogućite Roblox Crash Handler</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Omogućite ovo kako biste na svom profilu prikazali prilagođeni Bubblestrap Discord RPC dok je aplikacija otvorena.</value>
+  <data name="Menu.Integrations.ShowCloudstrapRPC.Description" xml:space="preserve">
+    <value>Omogućite ovo kako biste na svom profilu prikazali prilagođeni Cloudstrap Discord RPC dok je aplikacija otvorena.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowCloudstrapRPC.Title" xml:space="preserve">
+    <value>Cloudstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Odaberite zvuk...</value>
@@ -1420,7 +1420,7 @@ Dostupnost: {1}</value>
     <value>Hash verzije</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>Prisilite Bubblestrap da preuzme verziju iz određenog haša. Molimo vas da ovo ne mijenjate ako nemate pojma što to radi.</value>
+    <value>Prisilite Cloudstrap da preuzme verziju iz određenog haša. Molimo vas da ovo ne mijenjate ako nemate pojma što to radi.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Spremi i pokreni</value>
@@ -1449,7 +1449,7 @@ Dostupnost: {1}</value>
     <value>Automatska akcija promjene kanala</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox ili Bubblestrap mogu pokušati promijeniti vaš omiljeni kanal.</value>
+    <value>Roblox ili Cloudstrap mogu pokušati promijeniti vaš omiljeni kanal.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Promijeni automatski</value>
@@ -1477,31 +1477,31 @@ Dostupnost: {1}</value>
     <value>Navedeni kanal ili ne postoji ili je privatni.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Neuspjelo učitavanje Bubblestrap postavki.</value>
+    <value>Neuspjelo učitavanje Cloudstrap postavki.</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Uvozi postavke iz Bubblestrapa</value>
+    <value>Uvozi postavke iz Cloudstrapa</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Nije pronađena instalacija Bubblestrapa.</value>
+    <value>Nije pronađena instalacija Cloudstrapa.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Konfigurirajte opcije vezane uz samo ponašanje Bubblestrapa.</value>
+    <value>Konfigurirajte opcije vezane uz samo ponašanje Cloudstrapa.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Prikupite informacije koje se mogu prenijeti na internet kako biste riješili problem s kojim se suočavate.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Konfiguracija Bubblestrapa</value>
+    <value>Konfiguracija Cloudstrapa</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Svi Bubblestrap dnevnici</value>
+    <value>Svi Cloudstrap dnevnici</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Čistač</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap će ukloniti stare podatke kako bi uštedio prostor.</value>
+    <value>Cloudstrap će ukloniti stare podatke kako bi uštedio prostor.</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Nikada</value>
@@ -1537,16 +1537,16 @@ Dostupnost: {1}</value>
     <value>Stari dnevnički zapisi bit će izbrisani.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Zapisi Bubblestrapa</value>
+    <value>Zapisi Cloudstrapa</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Zapisi Bubblestrap bit će izbrisani.</value>
+    <value>Zapisi Cloudstrap bit će izbrisani.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags su privremeno onemogućeni</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Za više informacija pridružite se Bubblestrap Discord serveru.</value>
+    <value>Za više informacija pridružite se Cloudstrap Discord serveru.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Čekanje na podatke</value>
@@ -1588,7 +1588,7 @@ Dostupnost: {1}</value>
     <value>Globalna postavljanja</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Postavite postavke igre iz izbornika Bubblestrap.</value>
+    <value>Postavite postavke igre iz izbornika Cloudstrap.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Transparentnost</value>
@@ -1636,10 +1636,10 @@ Dostupnost: {1}</value>
     <value>Odaberite kvalitetu FRM-a koju bi Roblox trebao koristiti.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Dopustite Bubblestrapu pristup vašem Roblox računu</value>
+    <value>Dopustite Cloudstrapu pristup vašem Roblox računu</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Omogućite pristup Roblox API-jima koristeći svoj kolačić za autentifikaciju. [Što će Bubblestrap moći pristupiti?]({0})</value>
+    <value>Omogućite pristup Roblox API-jima koristeći svoj kolačić za autentifikaciju. [Što će Cloudstrap moći pristupiti?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Trimer memorije</value>

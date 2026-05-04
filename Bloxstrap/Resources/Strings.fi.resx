@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>Bubblestrap ei pystynyt automaattisesti päivittämään versioon {0}. Ole hyvä ja päivitä se manuaalisesti lataamalla ja suorittamalla sen verkkosivulta.</value>
+    <value>Cloudstrap ei pystynyt automaattisesti päivittämään versioon {0}. Ole hyvä ja päivitä se manuaalisesti lataamalla ja suorittamalla sen verkkosivulta.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>Roblox on tällä hetkellä käynnissä, ja toisen instanssin käynnistäminen tulee sulkemaan aiemman. Oletko varma, että haluat jatkaa?</value>
@@ -68,13 +68,13 @@
     <value>Roblox saattaa olla tällä hetkellä alhaalla. Katso {0} saadaksesi lisätietoja.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Yhteyttä ei voitu luoda, mikä todennäköisesti merkitsee huonoa internetyhteyttä tai palomuurin estoon. Jos yhteytesi on kunnossa, varmista, ettei virustentorjuntasi estä Bubblestrapia.</value>
+    <value>Yhteyttä ei voitu luoda, mikä todennäköisesti merkitsee huonoa internetyhteyttä tai palomuurin estoon. Jos yhteytesi on kunnossa, varmista, ettei virustentorjuntasi estä Cloudstrapia.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Sinun pitää asentaa Bubblestrap ennen poistamista.</value>
+    <value>Sinun pitää asentaa Cloudstrap ennen poistamista.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>Bubblestrapilla ei ole tarpeeksi levytilaa ladatakseen ja asentaakseen Robloxin. Vapauta levytilaa ja yritä uudelleen.</value>
+    <value>Cloudstrapilla ei ole tarpeeksi levytilaa ladatakseen ja asentaakseen Robloxin. Vapauta levytilaa ja yritä uudelleen.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Asetetaan Roblox-muunnoksia...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Bubblestrap poistettiin onnistuneesti</value>
+    <value>Cloudstrap poistettiin onnistuneesti</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox on tällä hetkellä käynnissä, mutta se pitää sulkea ennen Bubblestrapin poistamista. Haluatko sulkea Robloxin nyt?</value>
+    <value>Roblox on tällä hetkellä käynnissä, mutta se pitää sulkea ennen Cloudstrapin poistamista. Haluatko sulkea Robloxin nyt?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>Roblox vaatii Windows Media Foundation -komponentit. Sinulla ei näytä olevan niitä, todennäköisesti koska käytät N-versiota Windowsista. Asenna ne ensin, ja sitten käynnistä Roblox.</value>
@@ -217,21 +217,21 @@ Klikkaa saadaksesi lisätietoja</value>
     <value>Yhteysvirhe</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Bubblestrap ei voi yhdistää kohteeseen {0}</value>
+    <value>Cloudstrap ei voi yhdistää kohteeseen {0}</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Kopioi lokin sisältö</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Ilmestyi poikkeus Bubblestrapin suorittaessa</value>
+    <value>Ilmestyi poikkeus Cloudstrapin suorittaessa</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
-    <value>Tarkista ensin [Bubblestrapin Wiki]({0}) nähdäksesi, onko tämä ongelma jo korjattu.
+    <value>Tarkista ensin [Cloudstrapin Wiki]({0}) nähdäksesi, onko tämä ongelma jo korjattu.
 Jos se ei ole korjattu, ole hyvä ja raportoi tämä poikkeus [GitHub-issuen]({1}) kautta ja liitä mukana kopio luodusta lokitiedostosta.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Bubblestrap-poikkeus</value>
+    <value>Cloudstrap-poikkeus</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Mukautettu</value>
@@ -243,10 +243,10 @@ Jos se ei ole korjattu, ole hyvä ja raportoi tämä poikkeus [GitHub-issuen]({1
     <value>Myöhäis-2015</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (Klassinen)</value>
+    <value>Cloudstrap (Klassinen)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (Lasi)</value>
+    <value>Cloudstrap (Lasi)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Vanha (2008 - 2011)</value>
@@ -324,10 +324,10 @@ Jos se ei ole korjattu, ole hyvä ja raportoi tämä poikkeus [GitHub-issuen]({1
     <value>Vaalea</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>Bubblestrap on päivitetty versioon v{0}</value>
+    <value>Cloudstrap on päivitetty versioon v{0}</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Bubblestrapin versio, jonka käynnistit, eroaa asennetusta versiosta.
+    <value>Cloudstrapin versio, jonka käynnistit, eroaa asennetusta versiosta.
 Haluatko päivittää tällä hetkellä asennetun version?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
@@ -337,7 +337,7 @@ Haluatko päivittää tällä hetkellä asennetun version?</value>
     <value>Koodi</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Nämä ovat henkilöitä, jotka ovat tehneet huomattavia avustuksia Bubblestrapiin ja auttaneet tekemään siitä sen mikä se on.</value>
+    <value>Nämä ovat henkilöitä, jotka ovat tehneet huomattavia avustuksia Cloudstrapiin ja auttaneet tekemään siitä sen mikä se on.</value>
   </data>
   <data name="Menu.About.Contributors.FeatureIdeas" xml:space="preserve">
     <value>Ominaisuusideoita</value>
@@ -383,7 +383,7 @@ Haluatko päivittää tällä hetkellä asennetun version?</value>
     <value>Huomioi, etteivät kaikki muutoksesi astu voimaan, kunnes suljet kaikki käynnissä olevat Roblox-instanssit.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Bubblestrap on jo käynnissä</value>
+    <value>Cloudstrap on jo käynnissä</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>Voit saada sen näyttämään erilaiselta, retrolta, tai jopa juuri kuin Robloxilta.</value>
@@ -410,7 +410,7 @@ Haluatko päivittää tällä hetkellä asennetun version?</value>
     <value>Otsikko</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Määritä, miltä Bubblestrapin pitäisi näyttää.</value>
+    <value>Määritä, miltä Cloudstrapin pitäisi näyttää.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Yleinen teema</value>
@@ -434,10 +434,10 @@ Haluatko päivittää tällä hetkellä asennetun version?</value>
     <value>Ulkonäkö</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>Bubblestrap automaattisesti tarkistaa ja päivittää itsensä, kun Roblox avataan.</value>
+    <value>Cloudstrap automaattisesti tarkistaa ja päivittää itsensä, kun Roblox avataan.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Päivitä Bubblestrap automaattisesti</value>
+    <value>Päivitä Cloudstrap automaattisesti</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Estä valmiiksi käynnissä olevan pelin sulkemisen sen takia, että vahingossa käynnistit toisen.</value>
@@ -446,7 +446,7 @@ Haluatko päivittää tällä hetkellä asennetun version?</value>
     <value>Kysy varmistusta ennen kuin käynnistät toisen Roblox-instanssin</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Määritä, mitä Bubblestrapin pitäisi tehdä käynnistäessään Robloxin.</value>
+    <value>Määritä, mitä Cloudstrapin pitäisi tehdä käynnistäessään Robloxin.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Roblox asennetaan uudelleen seuraavan käynnistyksen yhteydessä.</value>
@@ -546,10 +546,10 @@ Haluatko varmasti jatkaa?</value>
     <value>Kuvaketiedostot</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Bubblestrapia ei voi asentaa tänne. Valitse toinen kansio, tai käytä oletuskansiota painamalla 'nollaa' nappia.</value>
+    <value>Cloudstrapia ei voi asentaa tänne. Valitse toinen kansio, tai käytä oletuskansiota painamalla 'nollaa' nappia.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Kansio jonka valitsit asentaaksesi Bubblestrapin on jo olemassa ja EI ole tyhjä. On hyvin suositeltua Bubblestrapin olla asennettuna omaan kansioonsa
+    <value>Kansio jonka valitsit asentaaksesi Cloudstrapin on jo olemassa ja EI ole tyhjä. On hyvin suositeltua Cloudstrapin olla asennettuna omaan kansioonsa
 Vaihtaminen tähän kansioon on suositeltua:
 {0}
 Haluatko vaihtaa suositeltuun kansioon?
@@ -560,7 +560,7 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Sinun täytyy asettaa asennussijainti</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>Bubblestrapilla ei ole kirjoituslupaa valitsemaasi asennussijaintiin. Ole hyvä ja valitse toinen kansio.</value>
+    <value>Cloudstrapilla ei ole kirjoituslupaa valitsemaasi asennussijaintiin. Ole hyvä ja valitse toinen kansio.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Aktiivisuusseuranta</value>
@@ -611,7 +611,7 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Älä poistu työpöytäsovellukseen</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Antaa Bubblestrapin tunnistaa, missä Roblox pelissä olet. Tietyt ominaisuudet voivat vaatia tämän.</value>
+    <value>Antaa Cloudstrapin tunnistaa, missä Roblox pelissä olet. Tietyt ominaisuudet voivat vaatia tämän.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Ota käyttöön toiminnan seuranta</value>
@@ -702,7 +702,7 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Asetukset tallennettu!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Bubblestrapin asetukset</value>
+    <value>Cloudstrapin asetukset</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Valitse tahdottu kieli</value>
@@ -726,7 +726,7 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Käyttöliittymä ja asettelu</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Salli Bubblestrapin hallita Fast Flageja</value>
+    <value>Salli Cloudstrapin hallita Fast Flageja</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Tämän käytöstä poistaminen estää minkään täällä konfiguroidun vaikuttamasta Robloxiin.</value>
@@ -738,7 +738,7 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Estää tämän näkymästä, kun liikuttaa hiiren näytön yläreunaan.</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Bubblestrap ei voi ladata Robloxia</value>
+    <value>Cloudstrap ei voi ladata Robloxia</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>Robloxia ei voi ladata tällä hetkellä. Ole hyvä ja lue seuraava ohjesivu saadaksesi lisätietoja: {0}</value>
@@ -759,7 +759,7 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Merkintä flagille '{0}' ei kelpaa, koska arvon pitää olla numero</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Lokitiedostoa ei tulla kirjoittamaan tälle käynnistykselle, koska Bubblestrap ei voi kirjoittaa kansioon '{0}'</value>
+    <value>Lokitiedostoa ei tulla kirjoittamaan tälle käynnistykselle, koska Cloudstrap ei voi kirjoittaa kansioon '{0}'</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Oletus</value>
@@ -774,7 +774,7 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Merkintä flagille '{0}' ei ole kelvollinen, koska pelisuodatin ei ole muotoiltu oikein.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Bubblestrapin asennusohjelma</value>
+    <value>Cloudstrapin asennusohjelma</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Tervetuloa</value>
@@ -793,16 +793,16 @@ Vastaus 'Ei' ohittaa tämän varoituksen ja jatkaa asentamista.</value>
     <value>Seuraava</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Kiitos, että latasit Bubblestrapin.
-Ainoat viralliset sivustot, joista Bubblestrapin voi ladata, ovat {0} ja {1}, joten tarkista, että latasit sen virallisesta lähteestä.
-Tämä asennusprosessi tulee olemaan nopea ja yksinkertainen, ja voit konfiguroida kaikkia Bubblestrapin asetuksia asennuksen jälkeen.</value>
+    <value>Kiitos, että latasit Cloudstrapin.
+Ainoat viralliset sivustot, joista Cloudstrapin voi ladata, ovat {0} ja {1}, joten tarkista, että latasit sen virallisesta lähteestä.
+Tämä asennusprosessi tulee olemaan nopea ja yksinkertainen, ja voit konfiguroida kaikkia Cloudstrapin asetuksia asennuksen jälkeen.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Klikkaa 'Seuraava' jatkaaksesi.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Yrität asentaa Bubblestrapin versiota {0}, mutta viimeisin versio on {1}. Haluaisitko ladata sen?</value>
+    <value>Yrität asentaa Cloudstrapin versiota {0}, mutta viimeisin versio on {1}. Haluaisitko ladata sen?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Valitse, mihin asennetaan</value>
@@ -823,13 +823,13 @@ Tämä asennusprosessi tulee olemaan nopea ja yksinkertainen, ja voit konfiguroi
     <value>Käynnistysvalikon kuvake</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>Bubblestrap asennettiin onnistuneesti.
-Roblox ei ole vielä asennettu, se tapahtuu vasta, kun käynnistät sen Bubblestrapin avulla ensimmäisen kerran. Kuitenkin ennen kuin teet näin, saattaisit tahtoa määrittää Bubblestrapin asetukset ensin.
-Muuten, vältä käyttämästä "Roblox Player" -pikakuvaketta käynnistääksesi Robloxin, koska Bubblestrap ei silloin käynnisty Robloxin mukana. Jos et näe Bubblestrapin ilmestyvän käynnistäessä pelin verkkosivustolta, käynnistä Roblox Bubblestrapin avulla työpöydältä kerran korjataksesi sen.
+    <value>Cloudstrap asennettiin onnistuneesti.
+Roblox ei ole vielä asennettu, se tapahtuu vasta, kun käynnistät sen Cloudstrapin avulla ensimmäisen kerran. Kuitenkin ennen kuin teet näin, saattaisit tahtoa määrittää Cloudstrapin asetukset ensin.
+Muuten, vältä käyttämästä "Roblox Player" -pikakuvaketta käynnistääksesi Robloxin, koska Cloudstrap ei silloin käynnisty Robloxin mukana. Jos et näe Cloudstrapin ilmestyvän käynnistäessä pelin verkkosivustolta, käynnistä Roblox Cloudstrapin avulla työpöydältä kerran korjataksesi sen.
 Mitä tahtoisit tehdä?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Määritä Bubblestrapin asetukset</value>
+    <value>Määritä Cloudstrapin asetukset</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Säädä sen tarjoamia ominaisuuksia</value>
@@ -841,19 +841,19 @@ Mitä tahtoisit tehdä?</value>
     <value>Pudottaa sinut työpöytäsovellukseen, kun kaikki on valmista</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Poista Bubblestrapin asennus</value>
+    <value>Poista Cloudstrapin asennus</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Asennuksen poistaminen poistaa Bubblestrapin järjestelmästäsi ja automaattisesti uudelleenmäärittää Robloxin vakiokäynnistysohjelman, jos se on vielä asennettuna.
+    <value>Asennuksen poistaminen poistaa Cloudstrapin järjestelmästäsi ja automaattisesti uudelleenmäärittää Robloxin vakiokäynnistysohjelman, jos se on vielä asennettuna.
 Jos poistat asennuksen tai asennat uudelleen, koska koet ongelmia Robloxin kanssa, lue [tämä tukisivu]({0}) ensin.
-Poistoprosessi ei saata pystyä siivoamaan itsensä täysin, joten sinun täytyy mahdollisesti siivota jäljelle jääneet tiedostot Bubblestrapin asennussijainnista.
-Bubblestrap asennettiin polkuun "{1}".</value>
+Poistoprosessi ei saata pystyä siivoamaan itsensä täysin, joten sinun täytyy mahdollisesti siivota jäljelle jääneet tiedostot Cloudstrapin asennussijainnista.
+Cloudstrap asennettiin polkuun "{1}".</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Säilytä asetukseni ja modini</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Ne pidetään siellä, missä Bubblestrap asennettiin ja palautetaan uudelleenasennuksen yhteydessä.</value>
+    <value>Ne pidetään siellä, missä Cloudstrap asennettiin ja palautetaan uudelleenasennuksen yhteydessä.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Poista asennus</value>
@@ -874,18 +874,18 @@ Bubblestrap asennettiin polkuun "{1}".</value>
     <value>Sinulla ei tällä hetkellä ole WebView2-ajoympäristöä asennettuna. Jotkin Robloxin ominaisuudet, kuten työpöytäohjelma, eivät toimi ilman sitä. Haluaisitko ladata sen nyt?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>Bubblestrap ei pystynyt luomaan pikakuvakkeita työpöydälle ja aloitusvalikkoon. Yritä luoda ne myöhemmin asetuksista.</value>
+    <value>Cloudstrap ei pystynyt luomaan pikakuvakkeita työpöydälle ja aloitusvalikkoon. Yritä luoda ne myöhemmin asetuksista.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
-    <value>Tarkista [Bubblestrapin wiki]({0}) ensin nähdäksesi, onko tämä ongelma jo ratkaistu korjauksella.
-Jos ei, ole hyvä ja raportoi tämä poikkeus tämän forkin ylläpitäjille. ÄLÄ raportoi tätä Bubblestrapin GitHub-issueihin, koska tämä on epävirallinen koontiversio.</value>
+    <value>Tarkista [Cloudstrapin wiki]({0}) ensin nähdäksesi, onko tämä ongelma jo ratkaistu korjauksella.
+Jos ei, ole hyvä ja raportoi tämä poikkeus tämän forkin ylläpitäjille. ÄLÄ raportoi tätä Cloudstrapin GitHub-issueihin, koska tämä on epävirallinen koontiversio.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Nämä ovat yleisiä pikakuvakkeita, jotka tuovat esiin monivalintaisen käynnistysvalikon. Pikakuvakkeet tietyille toiminnoille voidaan luoda myöhemmin asetuksista.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Määritä, miten Bubblestrap voidaan käynnistää helposti.</value>
+    <value>Määritä, miten Cloudstrap voidaan käynnistää helposti.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Yleinen</value>
@@ -922,7 +922,7 @@ Jos ei, ole hyvä ja raportoi tämä poikkeus tämän forkin ylläpitäjille. Ä
     <value>Sinulla on tallentamattomia muutoksia. Oletko varma, että tahdot sulkea tallentamatta?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Käynnistämäsi Bubblestrap-versio on vanhempi kuin versio, joka sinulla on tällä hetkenä asennettuna.
+    <value>Käynnistämäsi Cloudstrap-versio on vanhempi kuin versio, joka sinulla on tällä hetkenä asennettuna.
 Ongelmia voi esiintyä ja asetuksesi saattavat muuttua. Uudelleenasennus on suositeltavaa.
 Oletko varma, että tahdot jatkaa?</value>
   </data>
@@ -934,7 +934,7 @@ Oletko varma, että tahdot jatkaa?</value>
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Saadaksesi tietoa siitä, miksi tämä saattaisi tapahtua ja kuinka sen voi ratkaista, lue [tämä ohjeartikkeli}({0}).
-Tarkista, toimiiko Roblox [alkuperäisellä käynnistysohjelmalla]({1}). Jos ei, tämä ei ole vika Bubblestrapissa. Jos toimii, viittaa ohjeartikkeliin.</value>
+Tarkista, toimiiko Roblox [alkuperäisellä käynnistysohjelmalla]({1}). Jos ei, tämä ei ole vika Cloudstrapissa. Jos toimii, viittaa ohjeartikkeliin.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Dataa ei voitu ladata verkkovirheen vuoksi.</value>
@@ -970,11 +970,11 @@ Tarkista, toimiiko Roblox [alkuperäisellä käynnistysohjelmalla]({1}). Jos ei,
     <value>Tänä käynnistyksenä Robloxin päivityksiä ei tarkisteta, eivätkä muutokset modeihin astu voimaan.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Koska Roblox on asennettava tai päivitettävä, Bubblestrap ei voi jatkaa.</value>
+    <value>Koska Roblox on asennettava tai päivitettävä, Cloudstrap ei voi jatkaa.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>Bubblestrap on asennettu tähän sijaintiin ennen ja on edelleen läsnä, mutta asennusohjelma ei voi korvata vanhaa ohjelmaa.
-Ole hyvä ja poista Bubblestrap.exe manuaalisesti asennussijainnista tai käynnistä järjestelmäsi uudelleen ja yritä sitten asentaa uudelleen.</value>
+    <value>Cloudstrap on asennettu tähän sijaintiin ennen ja on edelleen läsnä, mutta asennusohjelma ei voi korvata vanhaa ohjelmaa.
+Ole hyvä ja poista Cloudstrap.exe manuaalisesti asennussijainnista tai käynnistä järjestelmäsi uudelleen ja yritä sitten asentaa uudelleen.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Ei saatavilla</value>
@@ -986,7 +986,7 @@ Ole hyvä ja poista Bubblestrap.exe manuaalisesti asennussijainnista tai käynni
     <value>Määritä sovellusparametreja, kuten DPI-skaalauksen käyttäytymistä ja [koko näytön tilan optimointeja]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>Robloxia ei ole vielä asennettu. Käynnistä Roblox Bubblestrapilla ainakin kerran ennen kuin yrität käyttää tätä asetusta.</value>
+    <value>Robloxia ei ole vielä asennettu. Käynnistä Roblox Cloudstrapilla ainakin kerran ennen kuin yrität käyttää tätä asetusta.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Oletko varma, että haluat peruuttaa asennuksen?</value>
@@ -1003,10 +1003,10 @@ Ole hyvä ja poista Bubblestrap.exe manuaalisesti asennussijainnista tai käynni
     <value>Vie Roblox-kuvakkeet kansioon</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Antaa sinun käyttää Bubblestrapin Roblox-ikonien valikoimaa pikakuvakkeissasi. [Katso, miten.]({0})</value>
+    <value>Antaa sinun käyttää Cloudstrapin Roblox-ikonien valikoimaa pikakuvakkeissasi. [Katso, miten.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Bubblestrap ei pysty kirjoittamaan Windowsin rekisteriin. Antivirusohjelma todennäköisesti häiritsee ja aiheuttaa ongelmia. Ole hyvä ja tarkista, ettei ole mitään, joka rajoittaisi Bubblestrapin toimintaa.</value>
+    <value>Cloudstrap ei pysty kirjoittamaan Windowsin rekisteriin. Antivirusohjelma todennäköisesti häiritsee ja aiheuttaa ongelmia. Ole hyvä ja tarkista, ettei ole mitään, joka rajoittaisi Cloudstrapin toimintaa.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Palauta kaikki oletuksiin</value>
@@ -1041,8 +1041,8 @@ Haluaisitko ottaa testaustilan käyttöön?</value>
     <value>Mukautettu</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>Bubblestrap yritti päivittää Robloxin, mutta ei voi, koska Robloxin tiedostot ovat vielä käytössä.
-Sulje kaikki sovellukset, jotka saattavat käyttää Robloxin tiedostoja, ja käynnistä Bubblestrap sitten uudelleen.</value>
+    <value>Cloudstrap yritti päivittää Robloxin, mutta ei voi, koska Robloxin tiedostot ovat vielä käytössä.
+Sulje kaikki sovellukset, jotka saattavat käyttää Robloxin tiedostoja, ja käynnistä Cloudstrap sitten uudelleen.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
   <data name="FileTypes.ZipArchive" xml:space="preserve">
@@ -1051,17 +1051,17 @@ Sulje kaikki sovellukset, jotka saattavat käyttää Robloxin tiedostoja, ja kä
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Vie</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Cloudstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Jokin todennäköisesti estää Bubblestrapia yhdistämästä internetiin.</value>
+    <value>Jokin todennäköisesti estää Cloudstrapia yhdistämästä internetiin.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>Yhteys aikakatkaistiin, mikä voisi merkitä huonoa internetyhteyttä tai palomuurin estoa.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>Muuta Roblox &amp; Bubblestrapin käyttöönotto- ja asennusasetuksia.</value>
+    <value>Muuta Roblox &amp; Cloudstrapin käyttöönotto- ja asennusasetuksia.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>Kanava</value>
@@ -1079,7 +1079,7 @@ Sulje kaikki sovellukset, jotka saattavat käyttää Robloxin tiedostoja, ja kä
     <value>Roblox ei enää tue Windows 7 tai 8.1, jatkaaksesi Robloxin pelaamista, ole hyvä ja päivitä Windows 10 tai uudempaan.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Haetaan uusinta Bubblestrap-versiota...</value>
+    <value>Haetaan uusinta Cloudstrap-versiota...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Tyhjä</value>
@@ -1238,7 +1238,7 @@ Sulje kaikki sovellukset, jotka saattavat käyttää Robloxin tiedostoja, ja kä
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Mukautetun käynnistysohjelman asettaminen epäonnistui: {0}.
 Palataan oletukseen {1}.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Cloudstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Mukautettua teemaa ei ole valittu.</value>
@@ -1305,7 +1305,7 @@ Palataan oletukseen {1}.</value>
     <value>Muokkaa</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>Tietoja Bubblestrapista</value>
+    <value>Tietoja Cloudstrapista</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Käyttöaika</value>
@@ -1326,11 +1326,11 @@ Käyttöaika: {1}</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Poista Roblox Crash Handler käytöstä</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Ota tämä käyttöön, jos haluat näyttää mukautetun Bubblestrap Discord RPC:n profiilissasi sovelluksen ollessa auki.</value>
+  <data name="Menu.Integrations.ShowCloudstrapRPC.Description" xml:space="preserve">
+    <value>Ota tämä käyttöön, jos haluat näyttää mukautetun Cloudstrap Discord RPC:n profiilissasi sovelluksen ollessa auki.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowCloudstrapRPC.Title" xml:space="preserve">
+    <value>Cloudstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Valitse ääni...</value>
@@ -1423,7 +1423,7 @@ Käyttöaika: {1}</value>
     <value>Versiohash</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>Pakota Bubblestrap lataamaan versio tietystä hashista. Älä muuta tätä, jos et tiedä, mitä se tekee.</value>
+    <value>Pakota Cloudstrap lataamaan versio tietystä hashista. Älä muuta tätä, jos et tiedä, mitä se tekee.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Tallenna ja käynnistä</value>
@@ -1452,7 +1452,7 @@ Haluatko siirtyä oletuskanavalle ({1})?</value>
     <value>Automaattinen kanavanvaihto</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox tai Bubblestrap saattaa yrittää muuttaa valitsemaasi kanavaa.</value>
+    <value>Roblox tai Cloudstrap saattaa yrittää muuttaa valitsemaasi kanavaa.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Muuta automaattisesti</value>
@@ -1480,32 +1480,32 @@ Haluatko vaihtaa ensisijaisen kanavasi asetukseksi {0}?</value>
     <value>Määritettyä kanavaa ei ole olemassa tai se on yksityinen.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Bubblestrap-asetusten tuonti epäonnistui.
+    <value>Cloudstrap-asetusten tuonti epäonnistui.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Tuo asetukset Bubblestrapista</value>
+    <value>Tuo asetukset Cloudstrapista</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Bubblestrap-asennusta ei löytynyt.</value>
+    <value>Cloudstrap-asennusta ei löytynyt.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Määritä Bubblestrapin toimintaan liittyvät asetukset.</value>
+    <value>Määritä Cloudstrapin toimintaan liittyvät asetukset.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Kerää tietoja, jotka voidaan ladata verkkoon ongelman ratkaisemiseksi.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Bubblestrap-kokoonpano</value>
+    <value>Cloudstrap-kokoonpano</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Kaikki Bubblestrap-lokit</value>
+    <value>Kaikki Cloudstrap-lokit</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Puhdistaja</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap poistaa vanhat tiedot tilan säästämiseksi.</value>
+    <value>Cloudstrap poistaa vanhat tiedot tilan säästämiseksi.</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Ei koskaan</value>
@@ -1541,16 +1541,16 @@ Haluatko vaihtaa ensisijaisen kanavasi asetukseksi {0}?</value>
     <value>Vanhat lokitiedostot poistetaan.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Bubblestrap-lokit</value>
+    <value>Cloudstrap-lokit</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Bubblestrap-lokit poistetaan.</value>
+    <value>Cloudstrap-lokit poistetaan.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags on väliaikaisesti poistettu käytöstä</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Lisätietoja saat liittymällä Bubblestrap Discord -palvelimeen.</value>
+    <value>Lisätietoja saat liittymällä Cloudstrap Discord -palvelimeen.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Odotetaan tietoja</value>
@@ -1592,7 +1592,7 @@ Haluatko vaihtaa ensisijaisen kanavasi asetukseksi {0}?</value>
     <value>Yleiset asetukset</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Määritä pelin asetukset Bubblestrap-valikosta.</value>
+    <value>Määritä pelin asetukset Cloudstrap-valikosta.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Läpinäkyvyys</value>
@@ -1640,10 +1640,10 @@ Haluatko vaihtaa ensisijaisen kanavasi asetukseksi {0}?</value>
     <value>Valitse Robloxin käyttämä FRM-laatu.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Salli Bubblestrapin käyttää Roblox-tiliäsi</value>
+    <value>Salli Cloudstrapin käyttää Roblox-tiliäsi</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Anna pääsy Roblox-sovellusliittymiin käyttämällä todennuskeksiäsi. [Mihin Bubblestrap pääsee käsiksi?]({0})</value>
+    <value>Anna pääsy Roblox-sovellusliittymiin käyttämällä todennuskeksiäsi. [Mihin Cloudstrap pääsee käsiksi?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Kuinka usein (sekunteina) muistia leikataan. Pienemmät arvot käyttävät enemmän CPU:ta ja voivat johtaa epävakaaseen pelattavuuteen.</value>

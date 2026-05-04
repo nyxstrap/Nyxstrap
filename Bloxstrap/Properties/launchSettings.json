@@ -1,37 +1,37 @@
 {
   "profiles": {
-    "Bubblestrap (Launch)": {
+    "Cloudstrap (Launch)": {
       "commandName": "Project"
     },
-    "Bubblestrap (Quiet Launch)": {
+    "Cloudstrap (Quiet Launch)": {
       "commandName": "Project",
       "commandLineArgs": "-quiet"
     },
-    "Bubblestrap (Uninstall)": {
+    "Cloudstrap (Uninstall)": {
       "commandName": "Project",
       "commandLineArgs": "-uninstall"
     },
-    "Bubblestrap (Quiet Uninstall)": {
+    "Cloudstrap (Quiet Uninstall)": {
       "commandName": "Project",
       "commandLineArgs": "-uninstall -quiet"
     },
-    "Bubblestrap (Menu)": {
+    "Cloudstrap (Menu)": {
       "commandName": "Project",
       "commandLineArgs": "-menu"
     },
-    "Bubblestrap (Deeplink)": {
+    "Cloudstrap (Deeplink)": {
       "commandName": "Project",
       "commandLineArgs": "-player \"roblox://experiences/start?placeId=13700835620\""
     },
-    "Bubblestrap (Channel Launch)": {
+    "Cloudstrap (Channel Launch)": {
       "commandName": "Project",
       "commandLineArgs": "-player \"roblox-player:1+launchmode:play+channel:zcontrol+LaunchExp:InApp\""
     },
-    "Bubblestrap (Studio Launch)": {
+    "Cloudstrap (Studio Launch)": {
       "commandName": "Project",
       "commandLineArgs": "-studio"
     },
-    "Bubblestrap (Watcher)": {
+    "Cloudstrap (Watcher)": {
       "commandName": "Project",
       "commandLineArgs": "-watcher"
     }

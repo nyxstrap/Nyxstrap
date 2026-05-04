@@ -175,15 +175,15 @@
             }
         }
 
-        public bool CleanerBubblestrap
+        public bool CleanerCloudstrap
         {
-            get => CleanerItems.Contains("BubblestrapLogs");
+            get => CleanerItems.Contains("CloudstrapLogs");
             set
             {
                 if (value)
-                    CleanerItems.Add("BubblestrapLogs");
+                    CleanerItems.Add("CloudstrapLogs");
                 else
-                    CleanerItems.Remove("BubblestrapLogs");
+                    CleanerItems.Remove("CloudstrapLogs");
             }
         }
     }

@@ -1,5 +1,11 @@
 ﻿using Microsoft.Win32;
 using System.Windows;
+using System;
+using System.IO;
+using System.Diagnostics;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
 
 namespace Bloxstrap
 {
@@ -106,7 +112,7 @@ namespace Bloxstrap
             if (ImportSettings)
             {
                 // we dont have to worry about directories messing up
-                // if something doenst exist Bubblestrap will recreate the file/directory
+                // if something doenst exist Cloudstrap will recreate the file/directory
                 try
                 {
                     ImportSettingsFromBloxstrap();
@@ -507,7 +513,7 @@ namespace Bloxstrap
 
                 if (IsDirectory)
                 {
-                    // delete existing file from Bubblestrap folder
+                    // delete existing file from Cloudstrap folder
                     string ExistingFile = Path.Combine(InstallLocation, FileName);
                     if (Directory.Exists(ExistingFile))
                     {

@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>Bubblestrap konnte nicht automatisch auf die Version {0} aktualisieren. Bitte aktualisiere es manuell, indem du es von der Webseite herunterlädst und ausführst.</value>
+    <value>Cloudstrap konnte nicht automatisch auf die Version {0} aktualisieren. Bitte aktualisiere es manuell, indem du es von der Webseite herunterlädst und ausführst.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>Roblox ist gerade geöffnet und wird beim Starten eines neuen Fensters geschlossen. Bist du dir sicher, dass du fortfahren möchtest?</value>
@@ -68,14 +68,14 @@
     <value>Roblox könnte aktuell nicht erreichbar sein. Siehe dir {0} für mehr Informationen an.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Es konnte keine Verbindung hergestellt werden, was wahrscheinlich auf eine schlechte Internetverbindung oder eine Firewall-Blockade hinweist. Sollte das Problem nicht bei deiner Internetverbindung liegen, könnte es sein, dass Bubblestrap durch dein Antivirus blockiert wird.</value>
+    <value>Es konnte keine Verbindung hergestellt werden, was wahrscheinlich auf eine schlechte Internetverbindung oder eine Firewall-Blockade hinweist. Sollte das Problem nicht bei deiner Internetverbindung liegen, könnte es sein, dass Cloudstrap durch dein Antivirus blockiert wird.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Du musst zuerst Bubblestrap installieren, bevor du es deinstallierst.</value>
+    <value>Du musst zuerst Cloudstrap installieren, bevor du es deinstallierst.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
     FF
-    <value>Bubblestrap hat nicht genügend Speicherplatz um Roblox herunterzuladen und zu installieren. Bitte gebe etwas Speicherplatz frei und versuche es erneut.</value>
+    <value>Cloudstrap hat nicht genügend Speicherplatz um Roblox herunterzuladen und zu installieren. Bitte gebe etwas Speicherplatz frei und versuche es erneut.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Roblox Modifikationen werden angewendet...</value>
@@ -111,10 +111,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Bubblestrap wurde erfolgreich deinstalliert</value>
+    <value>Cloudstrap wurde erfolgreich deinstalliert</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox läuft derzeit, muss jedoch geschlossen werden, bevor Bubblestrap deinstalliert werden kann. Möchtest du Roblox jetzt schließen?</value>
+    <value>Roblox läuft derzeit, muss jedoch geschlossen werden, bevor Cloudstrap deinstalliert werden kann. Möchtest du Roblox jetzt schließen?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>Roblox erfordert die Nutzung von Windows Media Foundation Komponenten. Es sieht so aus, als ob sie bei dir fehlen, wahrscheinlich weil du eine N Edition von Windows verwendest. Bitte installiere sie zuerst und starte anschließend Roblox.</value>
@@ -218,21 +218,21 @@ Klicke für mehr Informationen</value>
     <value>Verbindungsfehler</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Bubblestrap kann keine Verbindung zu {0} herstellen</value>
+    <value>Cloudstrap kann keine Verbindung zu {0} herstellen</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Log Inhalt kopieren</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Es ist ein Fehler während der Ausführung von Bubblestrap aufgetreten</value>
+    <value>Es ist ein Fehler während der Ausführung von Cloudstrap aufgetreten</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
     <value>Schau dir als Erstes die [Bloxstrap Wiki]({0}) an, um zu sehen, ob dieses Problem bereits angesprochen und gelöst wurde.
 Falls nicht, solltest du diesen Fehler über ein [GitHub Issue]({1}) mit einer Kopie der erstellten log Datei melden.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Bubblestrap Fehler</value>
+    <value>Cloudstrap Fehler</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Benutzerdefiniert</value>
@@ -244,10 +244,10 @@ Falls nicht, solltest du diesen Fehler über ein [GitHub Issue]({1}) mit einer K
     <value>Ende 2015</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (Klassisch)</value>
+    <value>Cloudstrap (Klassisch)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (Glas)</value>
+    <value>Cloudstrap (Glas)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Legacy (2008-2011)</value>
@@ -325,10 +325,10 @@ Falls nicht, solltest du diesen Fehler über ein [GitHub Issue]({1}) mit einer K
     <value>Hell</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>Bubblestrap wurde auf v{0} aktualisiert</value>
+    <value>Cloudstrap wurde auf v{0} aktualisiert</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Die ausgeführte Version von Bubblestrap unterscheidet sich von der installierten Version.
+    <value>Die ausgeführte Version von Cloudstrap unterscheidet sich von der installierten Version.
 Möchtest du deine installierte Version aktualisieren?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
@@ -338,7 +338,7 @@ Möchtest du deine installierte Version aktualisieren?</value>
     <value>Code</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Dies sind die Personen, welche bedeutende Beiträge zu Bubblestrap geleistet haben, um es zu dem zu machen was es ist.</value>
+    <value>Dies sind die Personen, welche bedeutende Beiträge zu Cloudstrap geleistet haben, um es zu dem zu machen was es ist.</value>
   </data>
   <data name="Menu.About.Contributors.FeatureIdeas" xml:space="preserve">
     <value>Feature-Ideen</value>
@@ -384,7 +384,7 @@ Möchtest du deine installierte Version aktualisieren?</value>
     <value>Bitte beachte, dass manche Änderungen erst übernommen werden können, wenn du alle Instanzen von Roblox schließt.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Bubblestrap wurde bereits gestartet</value>
+    <value>Cloudstrap wurde bereits gestartet</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>Du kannst dass Design anders, retro oder einfach wie Roblox aussehen lassen.</value>
@@ -411,7 +411,7 @@ Möchtest du deine installierte Version aktualisieren?</value>
     <value>Titel</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Konfiguriere das Aussehen von Bubblestrap.</value>
+    <value>Konfiguriere das Aussehen von Cloudstrap.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Globales Design</value>
@@ -435,10 +435,10 @@ Möchtest du deine installierte Version aktualisieren?</value>
     <value>Aussehen</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>Bubblestrap wird automatisch beim Starten von Roblox nach neuen Versionen prüfen und sich gegebenenfalls aktualisieren.</value>
+    <value>Cloudstrap wird automatisch beim Starten von Roblox nach neuen Versionen prüfen und sich gegebenenfalls aktualisieren.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Bubblestrap automatisch aktualisieren</value>
+    <value>Cloudstrap automatisch aktualisieren</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Verhindere das Schließen deines geöffneten Spiels durch versehentliches Starten eines neuen Spiels.</value>
@@ -447,7 +447,7 @@ Möchtest du deine installierte Version aktualisieren?</value>
     <value>Beim Starten einer weiteren Roblox-Instanz zur Bestätigung auffordern</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Konfiguriere, was Bubblestrap beim Öffnen von Roblox machen soll.</value>
+    <value>Konfiguriere, was Cloudstrap beim Öffnen von Roblox machen soll.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Roblox wird beim nächsten Ausführen neu installiert.</value>
@@ -547,10 +547,10 @@ Bist du sicher, dass du fortfahren möchtest?</value>
     <value>Symboldateien</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Bubblestrap kann hier nicht installiert werden. Bitte wähle einen anderen Ort aus oder verwende den Standardort, indem du auf die Schaltfläche "Zurücksetzen" klickst.</value>
+    <value>Cloudstrap kann hier nicht installiert werden. Bitte wähle einen anderen Ort aus oder verwende den Standardort, indem du auf die Schaltfläche "Zurücksetzen" klickst.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Der Ordner, den du für die Installation von Bubblestrap ausgewählt hast, existiert bereits und ist NICHT leer. Es wird dringend empfohlen, Bubblestrap in einem eigenen unabhängigen Ordner zu installieren.
+    <value>Der Ordner, den du für die Installation von Cloudstrap ausgewählt hast, existiert bereits und ist NICHT leer. Es wird dringend empfohlen, Cloudstrap in einem eigenen unabhängigen Ordner zu installieren.
 Der Wechsel zum folgenden Ort wird empfohlen:
 {0}
 Möchtest du zum vorgeschlagenen Ort wechseln?
@@ -561,7 +561,7 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Du musst einen Installationsort festlegen</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>Bubblestrap hat keine Schreibrechte auf deinen gewählten Installationsort. Bitte wähle einen anderen Ort.</value>
+    <value>Cloudstrap hat keine Schreibrechte auf deinen gewählten Installationsort. Bitte wähle einen anderen Ort.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Aktivitätsverfolgung</value>
@@ -612,7 +612,7 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Nicht zur Desktop-App zurückkehren</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Erlaube Bubblestrap zu sehen, welches Roblox Spiel du spielst. Bestimmte Features benötigen dies.</value>
+    <value>Erlaube Cloudstrap zu sehen, welches Roblox Spiel du spielst. Bestimmte Features benötigen dies.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Aktivitätsverfolgung aktivieren</value>
@@ -703,7 +703,7 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Einstellungen gespeichert!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Bubblestrap Einstellungen</value>
+    <value>Cloudstrap Einstellungen</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Bevorzugte Sprache wählen</value>
@@ -727,7 +727,7 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Benutzeroberfläche und Layout</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Erlaube Bubblestrap, Fast Flags zu verwalten</value>
+    <value>Erlaube Cloudstrap, Fast Flags zu verwalten</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Beim Deaktivieren von diesem werden keine Veränderungen hier in Roblox angewendet.</value>
@@ -739,7 +739,7 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Verhindert das Zeigen, wenn du deine Maus nach oben an den Bildschirmrand bewegst.</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Bubblestrap konnte Roblox nicht herunterladen</value>
+    <value>Cloudstrap konnte Roblox nicht herunterladen</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>Roblox kann gerade nicht heruntergeladen werden. Bitte lese die folgende Hilfeseite für mehr Informationen: {0}</value>
@@ -760,7 +760,7 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Die Eingabe für '{0}' ist nicht gültig, da der Wert eine Nummer sein muss</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Keine log Datei wird für diese Ausführung geschrieben, da Bubblestrap nicht bei dem Ordner '{0}' schreiben kann</value>
+    <value>Keine log Datei wird für diese Ausführung geschrieben, da Cloudstrap nicht bei dem Ordner '{0}' schreiben kann</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Standard</value>
@@ -775,7 +775,7 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Der Eintrag für '{0}' ist ungültig, da der Ortsfilter nicht korrekt formatiert ist.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Bubblestrap Installierer</value>
+    <value>Cloudstrap Installierer</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Willkommen</value>
@@ -794,16 +794,16 @@ Wenn du 'Nein' wählst, wird diese Warnung ignoriert und die Installation fortge
     <value>Nächste</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Danke, dass du Bubblestrap Heruntergeladen hast.
-Die einzigen offiziellen Webseiten zum Herunterladen von Bubblestrap sind {0} und {1}, stelle daher bitte sicher dass du es von einer offiziellen Quelle hast.
-Der Installationsvorgang wird schnell und einfach sein, und du wirst nach der Installation in der Lage sein, alle Einstellungen von Bubblestrap zu konfigurieren.</value>
+    <value>Danke, dass du Cloudstrap Heruntergeladen hast.
+Die einzigen offiziellen Webseiten zum Herunterladen von Cloudstrap sind {0} und {1}, stelle daher bitte sicher dass du es von einer offiziellen Quelle hast.
+Der Installationsvorgang wird schnell und einfach sein, und du wirst nach der Installation in der Lage sein, alle Einstellungen von Cloudstrap zu konfigurieren.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Bitte klicke auf 'Nächste' um fortzufahren.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Du versuchst Version {0} von Bubblestrap zu installieren, obwohl die neuere Version {1} verfügbar ist. Möchtest du diese stattdessen herunterladen?</value>
+    <value>Du versuchst Version {0} von Cloudstrap zu installieren, obwohl die neuere Version {1} verfügbar ist. Möchtest du diese stattdessen herunterladen?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Suche einen Installationsort aus</value>
@@ -824,13 +824,13 @@ Der Installationsvorgang wird schnell und einfach sein, und du wirst nach der In
     <value>Startmenü Symbol</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>Bubblestrap wurde erfolgreich installiert.
-Roblox wurde noch nicht installiert, was beim ersten Start von Roblox per Bubblestrap nachgeholt wird. Aber bevor du dies tust, möchtest du vielleicht die Einstellungen von Bubblestrap konfigurieren.
-Und vermeide das Starten von Roblox mit der "Roblox Player" Verknüpfung, weil Bubblestrap dann nicht mit Roblox startet. Wenn du Bubblestrap nicht siehst wenn du Roblox von der Webseite startest, musst du Roblox einmal durch Bubblestrap vom Desktop starten, um das Problem zu beheben.
+    <value>Cloudstrap wurde erfolgreich installiert.
+Roblox wurde noch nicht installiert, was beim ersten Start von Roblox per Cloudstrap nachgeholt wird. Aber bevor du dies tust, möchtest du vielleicht die Einstellungen von Cloudstrap konfigurieren.
+Und vermeide das Starten von Roblox mit der "Roblox Player" Verknüpfung, weil Cloudstrap dann nicht mit Roblox startet. Wenn du Cloudstrap nicht siehst wenn du Roblox von der Webseite startest, musst du Roblox einmal durch Cloudstrap vom Desktop starten, um das Problem zu beheben.
 Was möchtest du nun tun?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Konfiguriere die Einstellungen von Bubblestrap</value>
+    <value>Konfiguriere die Einstellungen von Cloudstrap</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Mit allen Features anpassen, die es zu bieten hat</value>
@@ -842,19 +842,19 @@ Was möchtest du nun tun?</value>
     <value>Wird dich in die Desktop-App bringen, wenn alles fertig ist</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Deinstalliere Bubblestrap</value>
+    <value>Deinstalliere Cloudstrap</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Die Deinstallation wird Bubblestrap von deinem System entfernen und den originalen Roblox Launcher automatisch wiederherstellen, sofern dieser noch installiert sein sollte.
+    <value>Die Deinstallation wird Cloudstrap von deinem System entfernen und den originalen Roblox Launcher automatisch wiederherstellen, sofern dieser noch installiert sein sollte.
 Falls du dich zur Deinstallation oder Reinstallation aufgrund von Problemen mit Roblox entschieden hast, lese [diese Hilfeseite]({0}) zuerst.
-Der Deinstallationsprozess wird gegebenenfalls nicht alle Dateien von Bubblestrap entfernen können, also könnte eine manuelle Entfernung der verbliebenen Dateien am Installationsort anfallen.
-Bubblestrap war bei "{1}" installiert.</value>
+Der Deinstallationsprozess wird gegebenenfalls nicht alle Dateien von Cloudstrap entfernen können, also könnte eine manuelle Entfernung der verbliebenen Dateien am Installationsort anfallen.
+Cloudstrap war bei "{1}" installiert.</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Behalte meine Einstellungen und Mods</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Sie verbleiben am Installationsort von Bubblestrap, und werden Automatisch bei einer Neuinstallation wiederhergestellt.</value>
+    <value>Sie verbleiben am Installationsort von Cloudstrap, und werden Automatisch bei einer Neuinstallation wiederhergestellt.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Deinstallieren</value>
@@ -875,18 +875,18 @@ Bubblestrap war bei "{1}" installiert.</value>
     <value>Du hast derzeit nicht die WebView2 Laufzeit installiert. Einige Roblox-Funktionen funktionieren ohne sie nicht, so wie die Desktop-App. Möchtest du es jetzt herunterladen?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>Bubblestrap konnte keine Verknüpfungen für den Desktop und das Startmenü erstellen. Versuche diese später über die Einstellungen zu erstellen.</value>
+    <value>Cloudstrap konnte keine Verknüpfungen für den Desktop und das Startmenü erstellen. Versuche diese später über die Einstellungen zu erstellen.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
     <value>Überprüfe zuerst die [Bloxstrap Wiki]({0}), um zu sehen, ob dieses Problem bereits mit einem Fix behoben wurde.
-Falls nicht, melde diese Ausnahme bitte an die Entwickler dieses Forks. Melde dies NICHT an Bubblestrap's GitHub issues, da dies eine inoffizielle Version ist.</value>
+Falls nicht, melde diese Ausnahme bitte an die Entwickler dieses Forks. Melde dies NICHT an Cloudstrap's GitHub issues, da dies eine inoffizielle Version ist.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Dies sind allgemeine Verknüpfungen, die ein MultiChoice-Startmenü aufrufen. Verknüpfungen für bestimmte Funktionen können später in den Einstellungen erstellt werden.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Konfiguriere, wie Bubblestrap problemlos gestartet werden kann.</value>
+    <value>Konfiguriere, wie Cloudstrap problemlos gestartet werden kann.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Allgemein</value>
@@ -923,7 +923,7 @@ Falls nicht, melde diese Ausnahme bitte an die Entwickler dieses Forks. Melde di
     <value>Du hast ungespeicherte Änderungen. Bist du dir sicher, dass du ohne Speichern beenden willst?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Die ausgeführte Version von Bubblestrap ist älter als die Version, welche gerade installiert ist.
+    <value>Die ausgeführte Version von Cloudstrap ist älter als die Version, welche gerade installiert ist.
 Probleme können auftreten und deine Einstellungen können geändert werden. Eine Neuinstallation wird empfohlen.
 Bist du sicher, dass du fortfahren möchtest?</value>
   </data>
@@ -935,7 +935,7 @@ Bist du sicher, dass du fortfahren möchtest?</value>
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Für Informationen warum dies passieren könnte und wie es behoben werden kann, lese bitte [diesen Hilfeartikel]({0}).
-Prüfe, ob Roblox mit [dem ursprünglichen Launcher]({1}) funktioniert. Wenn nicht, liegt das Problem nicht bei Bubblestrap. Wenn doch, greife bitte auf den Hilfeartikel zurück.</value>
+Prüfe, ob Roblox mit [dem ursprünglichen Launcher]({1}) funktioniert. Wenn nicht, liegt das Problem nicht bei Cloudstrap. Wenn doch, greife bitte auf den Hilfeartikel zurück.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Daten konnten aufgrund eines Netzwerkfehlers nicht geladen werden.</value>
@@ -971,11 +971,11 @@ Prüfe, ob Roblox mit [dem ursprünglichen Launcher]({1}) funktioniert. Wenn nic
     <value>Für diesen Start wird Roblox nicht auf Upgrades überprüft und Änderungen an Mods werden nicht angewendet.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Da Roblox installiert oder aktualisiert werden muss, kann Bubblestrap nicht fortfahren.</value>
+    <value>Da Roblox installiert oder aktualisiert werden muss, kann Cloudstrap nicht fortfahren.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>Bubblestrap wurde an diesem Pfad bereits installiert und ist immer noch vorhanden, aber der Installer kann die alte .exe-Datei nicht überschreiben. 
-Bitte lösche Bubblestrap.exe manuell aus dem Installationsverzeichnis oder versuche dein System neu zu starten, um danach die Installation erneut zu versuchen.</value>
+    <value>Cloudstrap wurde an diesem Pfad bereits installiert und ist immer noch vorhanden, aber der Installer kann die alte .exe-Datei nicht überschreiben. 
+Bitte lösche Cloudstrap.exe manuell aus dem Installationsverzeichnis oder versuche dein System neu zu starten, um danach die Installation erneut zu versuchen.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Nicht verfügbar</value>
@@ -987,7 +987,7 @@ Bitte lösche Bubblestrap.exe manuell aus dem Installationsverzeichnis oder vers
     <value>Konfiguriere Anwendungsparameter wie DPI-Skalierungsverhalten und [Vollbildoptimierungen]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>Roblox wurde noch nicht installiert. Bitte starte Roblox durch Bubblestrap mindestens einmal, bevor du diese Option nutzt.</value>
+    <value>Roblox wurde noch nicht installiert. Bitte starte Roblox durch Cloudstrap mindestens einmal, bevor du diese Option nutzt.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Bist du sicher, dass du die Installation abbrechen möchtest?</value>
@@ -1004,10 +1004,10 @@ Bitte lösche Bubblestrap.exe manuell aus dem Installationsverzeichnis oder vers
     <value>Extrahiere Roblox Icons zu einem Ordner</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Erlaubt es dir, Bubblestrap's Auswahl an Roblox Symbolen für deine Verknüpfungen zu benutzen. [Anleitung]({0})</value>
+    <value>Erlaubt es dir, Cloudstrap's Auswahl an Roblox Symbolen für deine Verknüpfungen zu benutzen. [Anleitung]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Bubblestrap kann keine Veränderungen im Windows Registry übernehmen. Ein Antivirenprogramm verursacht womöglich Komplikationen. Bitte stelle sicher, dass nichts Bubblestrap an seinen Operationen einschränkt.</value>
+    <value>Cloudstrap kann keine Veränderungen im Windows Registry übernehmen. Ein Antivirenprogramm verursacht womöglich Komplikationen. Bitte stelle sicher, dass nichts Cloudstrap an seinen Operationen einschränkt.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Alles auf Standardwerte zurücksetzen</value>
@@ -1042,7 +1042,7 @@ Möchtest du den Testmodus aktivieren?</value>
     <value>Benutzerdefiniert</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>Bubblestrap hat versucht, Roblox zu aktualisieren, kann dies jedoch nicht, da die Dateien von Roblox noch verwendet werden.
+    <value>Cloudstrap hat versucht, Roblox zu aktualisieren, kann dies jedoch nicht, da die Dateien von Roblox noch verwendet werden.
 Bitte schließe alle Anwendungen, die möglicherweise auf die Dateien von Roblox zugreifen, und starte die App neu.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1052,17 +1052,17 @@ Bitte schließe alle Anwendungen, die möglicherweise auf die Dateien von Roblox
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Exportieren</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Cloudstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Irgendetwas hindert Bubblestrap daran, sich mit dem Internet zu verbinden.</value>
+    <value>Irgendetwas hindert Cloudstrap daran, sich mit dem Internet zu verbinden.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>Die Verbindung wurde wegen einer Zeitüberschreitung unterbrochen, was entweder auf eine schlechte Internetverbindung oder einen Firewall-Block hinweist.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>Ändern Sie die Bereitstellungs- und Installationseinstellungen für Roblox &amp; Bubblestrap.</value>
+    <value>Ändern Sie die Bereitstellungs- und Installationseinstellungen für Roblox &amp; Cloudstrap.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>Kanal</value>
@@ -1080,7 +1080,7 @@ Bitte schließe alle Anwendungen, die möglicherweise auf die Dateien von Roblox
     <value>Windows 7 und 8.1 werden von Roblox nicht mehr unterstützt. Um weiterhin Roblox zu spielen, müsstest du auf Windows 10 oder höher upgraden.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Bubblestrap wird aktualisiert...</value>
+    <value>Cloudstrap wird aktualisiert...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Blank</value>
@@ -1239,7 +1239,7 @@ Bitte schließe alle Anwendungen, die möglicherweise auf die Dateien von Roblox
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Fehler beim Einrichten des benutzerdefinierten Boostrappers: {0}.
 Es wurde automatisch {1} ausgewählt.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Cloudstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Kein benutzerdefiniertes Design ausgewählt.</value>
@@ -1306,7 +1306,7 @@ Es wurde automatisch {1} ausgewählt.</value>
     <value>Bearbeiten</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>Über Bubblestrap</value>
+    <value>Über Cloudstrap</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Verfügbarkeit</value>
@@ -1327,11 +1327,11 @@ Betriebszeit: {1}</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Roblox-Absturzbehandler deaktivieren</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Aktivieren Sie diese Option, um ein benutzerdefiniertes Bubblestrap Discord RPC in Ihrem Profil anzuzeigen, während die App geöffnet ist.</value>
+  <data name="Menu.Integrations.ShowCloudstrapRPC.Description" xml:space="preserve">
+    <value>Aktivieren Sie diese Option, um ein benutzerdefiniertes Cloudstrap Discord RPC in Ihrem Profil anzuzeigen, während die App geöffnet ist.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowCloudstrapRPC.Title" xml:space="preserve">
+    <value>Cloudstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Wählen Sie den Ton...</value>
@@ -1424,7 +1424,7 @@ Betriebszeit: {1}</value>
     <value>Versions-Hash</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>Force Bubblestrap zum Herunterladen der Version von einem bestimmten Hash. Bitte nicht ändern, wenn Sie nicht wissen, was dies bewirkt.</value>
+    <value>Force Cloudstrap zum Herunterladen der Version von einem bestimmten Hash. Bitte nicht ändern, wenn Sie nicht wissen, was dies bewirkt.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Speichern und starten</value>
@@ -1453,7 +1453,7 @@ Möchten Sie zum Standardkanal ({1}) wechseln?</value>
     <value>Automatischer Kanalwechsel</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox oder Bubblestrap versuchen möglicherweise, Ihren bevorzugten Kanal zu ändern.</value>
+    <value>Roblox oder Cloudstrap versuchen möglicherweise, Ihren bevorzugten Kanal zu ändern.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Automatisch ändern</value>
@@ -1481,32 +1481,32 @@ Möchten Sie Ihren bevorzugten Kanal auf {0} umstellen?</value>
     <value>Der angegebene Kanal existiert entweder nicht oder ist privat.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Der Import der Bubblestrap-Einstellungen ist fehlgeschlagen.
+    <value>Der Import der Cloudstrap-Einstellungen ist fehlgeschlagen.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Einstellungen aus Bubblestrap importieren</value>
+    <value>Einstellungen aus Cloudstrap importieren</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Die Bubblestrap-Installation wurde nicht gefunden.</value>
+    <value>Die Cloudstrap-Installation wurde nicht gefunden.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Konfigurieren Sie Optionen, die sich auf das Verhalten von Bubblestrap selbst beziehen.</value>
+    <value>Konfigurieren Sie Optionen, die sich auf das Verhalten von Cloudstrap selbst beziehen.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Sammeln Sie Informationen, die online hochgeladen werden können, um ein Problem zu beheben, das Sie haben.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Bubblestrap-Konfiguration</value>
+    <value>Cloudstrap-Konfiguration</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Alle Bubblestrap-Protokolle</value>
+    <value>Alle Cloudstrap-Protokolle</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Reiniger</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap entfernt alte Daten, um Speicherplatz zu sparen.</value>
+    <value>Cloudstrap entfernt alte Daten, um Speicherplatz zu sparen.</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Niemals</value>
@@ -1542,16 +1542,16 @@ Möchten Sie Ihren bevorzugten Kanal auf {0} umstellen?</value>
     <value>Alte Protokolldateien werden gelöscht.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Bubblestrap-Protokolle</value>
+    <value>Cloudstrap-Protokolle</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Bubblestrap-Protokolle werden gelöscht.</value>
+    <value>Cloudstrap-Protokolle werden gelöscht.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags wurden vorübergehend deaktiviert.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Weitere Informationen finden Sie auf dem Bubblestrap Discord-Server.</value>
+    <value>Weitere Informationen finden Sie auf dem Cloudstrap Discord-Server.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Warten auf Daten</value>
@@ -1593,7 +1593,7 @@ Möchten Sie Ihren bevorzugten Kanal auf {0} umstellen?</value>
     <value>Globale Einstellungen</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Legen Sie die Einstellungen im Spiel über das Bubblestrap-Menü fest.</value>
+    <value>Legen Sie die Einstellungen im Spiel über das Cloudstrap-Menü fest.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Transparenz</value>
@@ -1641,10 +1641,10 @@ Möchten Sie Ihren bevorzugten Kanal auf {0} umstellen?</value>
     <value>Wählen Sie die FRM-Qualität, die Roblox verwenden soll.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Bubblestrap den Zugriff auf Ihr Roblox-Konto gewähren</value>
+    <value>Cloudstrap den Zugriff auf Ihr Roblox-Konto gewähren</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Gewähren Sie Zugriff auf Roblox-APIs mithilfe Ihres Authentifizierungs-Cookies. [Auf was greift Bubblestrap zu?]({0})</value>
+    <value>Gewähren Sie Zugriff auf Roblox-APIs mithilfe Ihres Authentifizierungs-Cookies. [Auf was greift Cloudstrap zu?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Speichertrimmer</value>

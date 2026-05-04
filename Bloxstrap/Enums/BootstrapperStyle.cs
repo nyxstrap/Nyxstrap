@@ -7,7 +7,7 @@
         LegacyDialog2011,
         ProgressDialog,
         ClassicFluentDialog,
-        [EnumName(StaticName = "Bubblestrap")]
+        [EnumName(StaticName = "Cloudstrap")]
         FluentDialog,
         FluentAeroDialog,
         CustomDialog

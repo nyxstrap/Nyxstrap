@@ -968,7 +968,7 @@ namespace Bloxstrap
             // i don't like this, but there isn't much better way of doing it /shrug
             if (Process.GetProcessesByName(App.ProjectName).Length > 1)
             {
-                App.Logger.WriteLine(LOG_IDENT, $"More than one Bubblestrap instance running, aborting update check");
+                App.Logger.WriteLine(LOG_IDENT, $"More than one Cloudstrap instance running, aborting update check");
                 return false;
             }
 
@@ -1002,7 +1002,7 @@ namespace Bloxstrap
             try
             {
 #if DEBUG_UPDATER
-                string downloadLocation = Path.Combine(Paths.TempUpdates, "Bubblestrap.exe");
+                string downloadLocation = Path.Combine(Paths.TempUpdates, "Cloudstrap.exe");
 
                 Directory.CreateDirectory(Paths.TempUpdates);
 

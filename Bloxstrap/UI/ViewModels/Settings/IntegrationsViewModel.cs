@@ -106,25 +106,25 @@ namespace Bloxstrap.UI.ViewModels.Settings
             }
         }
 
-        public bool ShowUsingBubblestrapRPC
+        public bool ShowUsingCloudstrapRPC
         {
-            get => App.Settings.Prop.ShowUsingBubblestrapRPC;
+            get => App.Settings.Prop.ShowUsingCloudstrapRPC;
             set
             {
-                App.Settings.Prop.ShowUsingBubblestrapRPC = value;
+                App.Settings.Prop.ShowUsingCloudstrapRPC = value;
 
                 if (value)
                 {
-                    if (App.BubbleRPC == null)
+                    if (App.CloudRPC == null)
                     {
-                        App.BubbleRPC = new BubblestrapRichPresence();
-                        App.BubbleRPC.SetPage("Integration");
+                        App.CloudRPC = new CloudstrapRichPresence();
+                        App.CloudRPC.SetPage("Integration");
                     }
                 }
                 else
                 {
-                    App.BubbleRPC?.Dispose();
-                    App.BubbleRPC = null;
+                    App.CloudRPC?.Dispose();
+                    App.CloudRPC = null;
                 }
             }
         }

@@ -2,7 +2,7 @@
 
 namespace Bloxstrap.Integrations
 {
-    public class BubblestrapRichPresence : IDisposable
+    public class CloudstrapRichPresence : IDisposable
     {
         private readonly DiscordRpcClient _rpcClient;
         private readonly Timestamps _startTimestamps;
@@ -14,9 +14,9 @@ namespace Bloxstrap.Integrations
 
         public bool IsConnected => _rpcClient?.IsInitialized == true;
 
-        public BubblestrapRichPresence()
+        public CloudstrapRichPresence()
         {
-            _rpcClient = new DiscordRpcClient("1451191251956273235")
+            _rpcClient = new DiscordRpcClient("1500742757029908540")
             {
                 SkipIdenticalPresence = true
             };
@@ -51,7 +51,7 @@ namespace Bloxstrap.Integrations
 
         private void OnReady(object sender, DiscordRPC.Message.ReadyMessage args)
         {
-            App.Logger.WriteLine("BubblestrapRichPresence", $"Connected as {args.User.Username}");
+            App.Logger.WriteLine("CloudstrapRichPresence", $"Connected as {args.User.Username}");
         }
 
         public void SetPage(string pageName)
@@ -116,14 +116,14 @@ namespace Bloxstrap.Integrations
                     Timestamps = _startTimestamps,
                     Assets = new Assets
                     {
-                        LargeImageKey = "bubblestrap",
-                        LargeImageText = "Bubblestrap",
-                        SmallImageKey = "checkmark",
-                        SmallImageText = $"v{App.Version}"
+                        LargeImageKey = "cloudstrap",
+                        LargeImageText = "Cloudstrap",
+//                        SmallImageKey = "checkmark",
+//                        SmallImageText = $"v{App.Version}"
                     },
                     Buttons = new[]
                     {
-                        new Button { Label = "Discord", Url = "https://discord.gg/VTKQCSwPvU" }
+                        new Button { Label = "Join the Discord", Url = "https://discord.gg/P3HUKK8xcM" }
                     }
                 };
 

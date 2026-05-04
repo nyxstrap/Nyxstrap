@@ -179,17 +179,17 @@ namespace Bloxstrap
             {
                 bool showAlreadyRunningWarning = Process.GetProcessesByName(App.ProjectName).Length > 1;
 
-                if (App.Settings.Prop.ShowUsingBubblestrapRPC && App.BubbleRPC == null)
+                if (App.Settings.Prop.ShowUsingCloudstrapRPC && App.CloudRPC == null)
                 {
-                    App.BubbleRPC = new BubblestrapRichPresence();
+                    App.CloudRPC = new CloudstrapRichPresence();
                 }
 
                 var window = new UI.Elements.Settings.MainWindow(showAlreadyRunningWarning);
-                App.BubbleRPC?.SetPage("Settings");
+                App.CloudRPC?.SetPage("Settings");
 
                 // typically we'd use Show(), but we need to block to ensure IPL stays in scope
                 window.ShowDialog();
-                App.BubbleRPC?.ResetPresence();
+                App.CloudRPC?.ResetPresence();
             }
             else
             {
@@ -206,18 +206,18 @@ namespace Bloxstrap
 
         public static void LaunchMenu()
         {
-            if (App.Settings.Prop.ShowUsingBubblestrapRPC && App.BubbleRPC == null)
+            if (App.Settings.Prop.ShowUsingCloudstrapRPC && App.CloudRPC == null)
             {
-                App.BubbleRPC = new BubblestrapRichPresence();
+                App.CloudRPC = new CloudstrapRichPresence();
             }
 
             var dialog = new LaunchMenuDialog();
-            App.BubbleRPC?.SetPage("Launch Menu");
+            App.CloudRPC?.SetPage("Launch Menu");
             dialog.ShowDialog();
 
             ProcessNextAction(dialog.CloseAction);
 
-            App.BubbleRPC?.ResetPresence();
+            App.CloudRPC?.ResetPresence();
         }
 
         public static void LaunchRoblox(LaunchMode launchMode)

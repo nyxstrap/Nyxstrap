@@ -13,12 +13,12 @@ namespace Bloxstrap
     /// </summary>
     public partial class App : Application
     {
-        public const string ProjectName = "Bubblestrap";
-        public const string ProjectOwner = "ItzBloxxy";
-        public const string ProjectRepository = "ItzBloxxy/Bubblestrap";
-        public const string ProjectDownloadLink = "https://github.com/ItzBloxxy/Bubblestrap/releases";
+        public const string ProjectName = "Cloudstrap";
+        public const string ProjectOwner = "cloudstrap-dev";
+        public const string ProjectRepository = "cloudstrap-dev/Cloudstrap";
+        public const string ProjectDownloadLink = "https://github.com/cloudstrap-dev/Cloudstrap/releases";
         public const string ProjectHelpLink = "https://github.com/bloxstraplabs/bloxstrap/wiki";
-        public const string ProjectSupportLink = "https://github.com/ItzBloxxy/Bubblestrap/issues/new";
+        public const string ProjectSupportLink = "https://github.com/cloudstrap-dev/Cloudstrap/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta.exe";
         public const string RobloxStudioAppName = "RobloxStudioBeta.exe";
@@ -34,7 +34,7 @@ namespace Bloxstrap
 
         public static Bootstrapper? Bootstrapper { get; set; } = null!;
 
-        public BubblestrapRichPresence RichPresence { get; private set; } = null!;
+        public CloudstrapRichPresence RichPresence { get; private set; } = null!;
 
         public static bool IsActionBuild => !string.IsNullOrEmpty(BuildMetadata.CommitRef);
 
@@ -122,7 +122,7 @@ namespace Bloxstrap
             Terminate(ErrorCode.ERROR_INSTALL_FAILURE);
         }
 
-        public static BubblestrapRichPresence? BubbleRPC
+        public static CloudstrapRichPresence? CloudRPC
         {
             get => (Current as App)?.RichPresence;
             set
@@ -317,7 +317,7 @@ namespace Bloxstrap
 
         protected override void OnExit(ExitEventArgs e)
         {
-            BubbleRPC?.Dispose();
+            CloudRPC?.Dispose();
             base.OnExit(e);
         }
     }

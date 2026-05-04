@@ -13,7 +13,7 @@ namespace Bloxstrap.UI.Elements.Settings.Pages
         {
             DataContext = new AppearanceViewModel(this);
             InitializeComponent();
-            App.BubbleRPC?.SetPage("Appearance");
+            App.CloudRPC?.SetPage("Appearance");
         }
 
         public void CustomThemeSelection(object sender, SelectionChangedEventArgs e)

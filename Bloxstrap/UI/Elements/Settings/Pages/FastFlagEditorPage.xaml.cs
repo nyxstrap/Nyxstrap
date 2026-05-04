@@ -23,7 +23,7 @@ namespace Bloxstrap.UI.Elements.Settings.Pages
         public FastFlagEditorPage()
         {
             InitializeComponent();
-            App.BubbleRPC?.SetPage("Fast Flag Editor");
+            App.CloudRPC?.SetPage("Fast Flag Editor");
         }
 
         private void ReloadList()
@@ -84,11 +84,11 @@ namespace Bloxstrap.UI.Elements.Settings.Pages
 
         private void ShowAddDialog()
         {
-            App.BubbleRPC?.SetDialog("Add FastFlag");
+            App.CloudRPC?.SetDialog("Add FastFlag");
             var dialog = new AddFastFlagDialog();
             dialog.ShowDialog();
 
-            App.BubbleRPC?.ClearDialog();
+            App.CloudRPC?.ClearDialog();
 
             if (dialog.Result != MessageBoxResult.OK)
                 return;

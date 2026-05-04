@@ -26,7 +26,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
         private void PreviewBootstrapper()
         {
-            App.BubbleRPC?.SetDialog("Preview Launcher");
+            App.CloudRPC?.SetDialog("Preview Launcher");
             IBootstrapperDialog dialog = App.Settings.Prop.BootstrapperStyle.GetNew();
 
             // Always use text cancel
@@ -34,7 +34,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
             dialog.CancelEnabled = true;
             dialog.ShowBootstrapper();
-            App.BubbleRPC?.ClearDialog();
+            App.CloudRPC?.ClearDialog();
         }
 
         private void BrowseCustomIconLocation()
@@ -117,7 +117,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
                 if (String.IsNullOrEmpty(value))
                 {
                     if (App.Settings.Prop.BootstrapperIcon == BootstrapperIcon.IconCustom)
-                        App.Settings.Prop.BootstrapperIcon = BootstrapperIcon.IconBubblestrap;
+                        App.Settings.Prop.BootstrapperIcon = BootstrapperIcon.IconCloudstrap;
                 }
                 else
                 {
@@ -146,10 +146,10 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
         private void AddCustomTheme()
         {
-            App.BubbleRPC?.SetDialog("Add Custom Launcher");
+            App.CloudRPC?.SetDialog("Add Custom Launcher");
             var dialog = new AddCustomThemeDialog();
             dialog.ShowDialog();
-            App.BubbleRPC?.ClearDialog();
+            App.CloudRPC?.ClearDialog();
 
             if (dialog.Created)
             {
@@ -258,10 +258,10 @@ namespace Bloxstrap.UI.ViewModels.Settings
             if (SelectedCustomTheme is null)
                 return;
 
-            App.BubbleRPC?.SetDialog("Edit Custom Theme");
+            App.CloudRPC?.SetDialog("Edit Custom Theme");
 
             new BootstrapperEditorWindow(SelectedCustomTheme).ShowDialog();
-            App.BubbleRPC?.ClearDialog();
+            App.CloudRPC?.ClearDialog();
         }
 
         private void ExportCustomTheme()
