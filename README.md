@@ -1,95 +1,143 @@
-<div align="center">
-  <img 
-    src="https://github.com/user-attachments/assets/8a327108-1f05-4aa9-b72b-f90a91876338" 
-    width="1320" 
-    height="534" 
-  />
-  <br/><br/>
+<p align="center">
+<a href="https://cloudstrap-dev.github.io/Cloudstrap">
+<img src="https://raw.githubusercontent.com/cloudstrap-dev/Cloudstrap/main/Bloxstrap/Cloudstrap.png" alt="preview" width="100px"/>
+</a>
+</p>
 
-[![Version][badge-repo-latest]][repo-latest] 
-[![Stars][badge-repo-stars]][repo-stargazer] 
-[![License][badge-repo-license]][repo-license] 
-[![Downloads (Latest)][badge-repo-downloads-latest]][repo-releases] 
-[![Downloads (Total)][badge-repo-downloads-total]][repo-releases]  
+## Cloudstrap
+
+[![Total Downloads][shield-repo-total]][repo-releases]
+[![Latest Downloads][shield-repo-downloads]][repo-latest]
+[![Latest Release][shield-repo-latest]][repo-latest]
+[![Discord][shield-discord-server]][discord-invite]
+[![Stars][shield-repo-stars]][repo-stargazers] 
 
 </div>
 
-> [!CAUTION]
-> The only official places to download Bubblestrap are this GitHub repository and our new website https://itzbloxxy.github.io/Bubblestrap-website/
-
 > [!NOTE]
-> **Bubblestrap only supports Windows 10 and 11**. We do not have any plans to port it to any other operating systems.
+> **Cloudstrap only supports Windows 10 and 11**. Linux support may be possible in the future.
 
-Bubblestrap is a fast and lightweight bootstrapper for Roblox that aims to provide additional features to improve your experience.
+Cloudstrap is a fast and lightweight Roblox bootstrapper that aims to improve your in-game experience. 
 
 Download the latest release [here][repo-latest]
 
 Found any bugs or issues?
 👉 [Submit an issue](https://github.com/ItzBloxxy/BubbleStrap/issues/new/choose)
 
------
+<hr>
 
-# ✨ Features
+## Installation
 
-### Integrations
-- Activity tracking
-- Detailed player logs
-- Detailed server information (Thanks to [RoValra](https://www.rovalra.com/))
-- Don't exit to desktop app
-- Fully customizable Discord Rich Presence
-- Multi-instance support
-- Set custom integrations (you can have other programs launch with Roblox automatically)
+1. Download the latest version [here][repo-latest].
+2. Run the `.exe` file and follow the instructions.
+3. Configure the settings or launch Roblox as it is.
+4. Enjoy a simpler Roblox!
 
-### Bootstrapper
-- Prompt to confirm when launching another instance
-- Memory trimmer with threshold and interval
-- Disable RobloxCrashHandler.exe which helps free up some system resources and improve performance
-- Update roblox in the background instead of waiting
-- Auto-update Bubblestrap
-- Cache, logs and Bubblestrap logs cleaner
-- Disable Roblox System Tray
-- Toggle Launch Roblox On startup
+## Features
 
-### Deployment
-- Channel changer
-- Force Roblox reinstallation
+<details>
+  <summary><strong>Integrations</strong></summary>
 
-### Mods
-- Use custom font
-- Use custom death sound
-- Old character sounds from 2014
-- Use old avatar editor background
-- Customize cursors (ShiftLock, Arrow, ArrowFar, IBeam)
-- Cursor sets (import & export)
+  - Activity tracking
+  - Detailed player logs
+  - Detailed server information (Thanks to [RoValra](https://www.rovalra.com/))
+  - Ability to not exit to the desktop app & Safe Multi-instance support
+  - Fully customizable Discord Rich Presence
+  - Set custom integrations (You can have other programs launch automatically with Roblox)
 
-### Other
-- FFlag editor
-- Global Settings page
-- Framerate cap unlocking
-- Custom Bubblestrap game invite links (DEEPLINK)
-- Roblox Studio Support
-- Full translations unlike other bootstrappers
-- No analytics
+</details>
+
+  <summary><strong>Bootstrapper</strong></summary>
+
+  - Prompt to confirm when launching another instance (if Multi-instance is enabled)
+  - Adaptive RAM trimming with configurable Threshold (activation point) and Interval (frequency).
+  - Disable RobloxCrashHandler.exe
+  - Update roblox in the background
+  - Auto-update Cloudstrap
+  - Cache cleaner
+  - Toggle Minimize Roblox to tray
+  - Toggle Launch Roblox On startup
+
+</details>
+
+<details>
+
+  <summary><strong>Deployment</strong></summary>
+
+  - Change the deployment channel (e.g. zflag or production)
+  - Force Roblox reinstallation when launching the game
+
+</details>
+
+<details>
+
+  <summary><strong>Mods</strong></summary>
+
+  - Use custom font
+  - Use custom death sound
+  - Old character sounds
+  - Use old avatar editor background
+  - Customize cursors (ShiftLock, Arrow, etc.)
+  - Cursor sets
+
+</details>
+
+<details>
+
+  <summary><strong>Other</strong></summary>
+
+  - Fastflag editor
+  - Global Settings page
+  - Uncap framerate limit
+  - Custom game invite links (thanks to Deeplink)
+  - Roblox Studio Support
+  - Full translations
+  - Disable telemetry
+
+</details>
+
+## How to contribute
+
+<p align="left">
+  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
+  </a>
+</p>
+
+Cloudstrap is built using **C#**.
+
+### Fork the repo
+
+1. Go to the [repository page][repo-url]
+2. Press **fork** (top-right part of the screen)
+3. This creates your own repo under your GitHub account where you can later submit the changes to a pull request.
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=ItzBloxxy%2FBubblestrap&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=cloudstrap-dev%2FCloudstrap&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=ItzBloxxy/Bubblestrap&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=ItzBloxxy/Bubblestrap&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=ItzBloxxy/Bubblestrap&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudstrap-dev/Cloudstrap&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cloudstrap-dev/Cloudstrap&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cloudstrap-dev/Cloudstrap&type=date&legend=top-left" />
  </picture>
 </a>
+
+## Join our Discord Server 👇
+
+<p align="center">
+  <a href="https://discord.gg/P3HUKK8xcM">
+    <img src="https://invidget.switchblade.xyz/P3HUKK8xcM">
+  </a>
+</p>
   
-[repo-latest]:   https://github.com/ItzBloxxy/Bubblestrap/releases/latest
+[shield-repo-downloads]:  https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/latest/total?color=981bfe
+[shield-repo-total]:      https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/total?color=8a2be2
+[shield-repo-latest]:     https://img.shields.io/github/v/release/cloudstrap-dev/Cloudstrap?color=7a39fb
+[shield-repo-stars]:      https://img.shields.io/github/stars/cloudstrap-dev/Cloudstrap?color=ffd700
+[shield-discord-server]:  https://img.shields.io/discord/1327967202015580223?logo=discord&logoColor=white&label=Discord&color=4d3dff
 
-[badge-repo-latest]: https://img.shields.io/github/v/release/ItzBloxxy/Bubblestrap?style=for-the-badge&color=4caf51
-[badge-repo-stars]: https://img.shields.io/github/stars/ItzBloxxy/Bubblestrap?style=for-the-badge&color=ff9800
-[badge-repo-license]: https://img.shields.io/github/license/ItzBloxxy/Bubblestrap?style=for-the-badge&color=2196f3
-[badge-repo-downloads-latest]: https://img.shields.io/github/downloads/ItzBloxxy/Bubblestrap/latest/total?style=for-the-badge&color=e91e63
-[badge-repo-downloads-total]: https://img.shields.io/github/downloads/ItzBloxxy/Bubblestrap/total?style=for-the-badge&color=9c27b0
-
-[repo-latest]: https://github.com/ItzBloxxy/Bubblestrap/releases/latest
-[repo-stargazer]: https://github.com/ItzBloxxy/Bubblestrap/stargazers
-[repo-license]: https://github.com/ItzBloxxy/Bubblestrap/blob/master/LICENSE
-[repo-releases]: https://github.com/ItzBloxxy/Bubblestrap/releases
+[repo-releases]:          https://github.com/cloudstrap-dev/Cloudstrap/releases
+[repo-latest]:            https://github.com/cloudstrap-dev/Cloudstrap/releases/latest
+[repo-stargazers]:        https://github.com/cloudstrap-dev/Cloudstrap/stargazers
+[discord-invite]:         https://discord.gg/P3HUKK8xcM
+[repo-url]:               https://github.com/cloudstrap-dev/Cloudstrap
