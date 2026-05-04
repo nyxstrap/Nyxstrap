@@ -5,6 +5,8 @@
 
 <h1 align="center"><b>Cloudstrap</b></h1>
 
+<div align="center">
+
 [![Total Downloads][shield-repo-total]][repo-releases]
 [![Latest Downloads][shield-repo-downloads]][repo-latest]
 [![Latest Release][shield-repo-latest]][repo-latest]
