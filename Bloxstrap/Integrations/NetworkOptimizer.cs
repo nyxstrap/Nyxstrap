@@ -2,6 +2,7 @@ using System.Diagnostics;
 using System.ComponentModel;
 using System.Linq;
 using System.Net.NetworkInformation;
+using System.Collections.Generic;
 
 namespace Bloxstrap.Utility
 {
@@ -14,22 +15,27 @@ namespace Bloxstrap.Utility
                 .Where(nic => nic.OperationalStatus == OperationalStatus.Up && 
                               (nic.NetworkInterfaceType == NetworkInterfaceType.Ethernet || 
                                nic.NetworkInterfaceType == NetworkInterfaceType.Wireless80211))
-                .Select(nic => nic.Name);
+                .Select(nic => nic.Name)
+                .ToList();
 
             if (!interfaces.Any()) return;
 
-            // build 1 giant command string divided by "&&"
-            // tells cmd to run next command only if the previous one succeeds
-            string combinedArgs = "/c ";
+            var commands = new List<string>();
+
             foreach (var name in interfaces)
             {
-                combinedArgs += $"netsh interface ipv4 set dns name=\"{name}\" static 1.1.1.1 primary && ";
-                combinedArgs += $"netsh interface ipv4 add dns name=\"{name}\" 1.0.0.1 index=2 && ";
+                // We use double quotes for interface names in case they have spaces
+                commands.Add($"netsh interface ipv4 set dns name=\"{name}\" static 1.1.1.1 primary");
+                commands.Add($"netsh interface ipv4 add dns name=\"{name}\" 1.0.0.1 index=2");
             }
 
-            // Just append the flush command at the end. 
-            // Since the loop added an extra "&& " at the very end, this works perfectly:
-            combinedArgs += "ipconfig /flushdns";
+            commands.Add("ipconfig /flushdns");
+
+            // Combine with && so it only proceeds if the previous command worked
+            string combinedArgs = "/c " + string.Join(" && ", commands);
+
+            RunElevatedCmd(combinedArgs);
+        } // Added missing closing brace for the method
 
         private static void RunElevatedCmd(string arguments)
         {
@@ -39,12 +45,13 @@ namespace Bloxstrap.Utility
                 {
                     FileName = "cmd.exe",
                     Arguments = arguments,
-                    Verb = "runas",           // single UAC prompt
+                    Verb = "runas",
                     UseShellExecute = true,
-                    WindowStyle = ProcessWindowStyle.Hidden
+                    WindowStyle = ProcessWindowStyle.Hidden,
+                    CreateNoWindow = true
                 });
             }
-            catch (Win32Exception)          // handle user declining UAC prompt (pressing "No")
+            catch (Win32Exception)
             {
                 App.Logger.WriteLine("NetworkOptimizer", "User declined UAC. DNS was not changed.");
             }

@@ -1,11 +1,11 @@
-﻿using System.Windows;
+using System.Windows;
 using DiscordRPC;
 
 namespace Bloxstrap.Integrations
 {
-    public class DiscordRichPresence : IDisposable
+    public class PlayerDiscordRichPresence : IDisposable
     {
-        private readonly DiscordRpcClient _rpcClient = new("1500742757029908540");
+        private readonly DiscordRpcClient _rpcClient = new("1005469189907173486");
         private readonly ActivityWatcher _activityWatcher;
         private readonly Queue<Message> _messageQueue = new();
 
@@ -20,14 +20,14 @@ namespace Bloxstrap.Integrations
 
         private bool _visible = true;
 
-        public DiscordRichPresence(ActivityWatcher activityWatcher)
+        public PlayerDiscordRichPresence(ActivityWatcher activityWatcher)
         {
-            const string LOG_IDENT = "DiscordRichPresence";
+            const string LOG_IDENT = "PlayerDiscordRichPresence";
 
             _activityWatcher = activityWatcher;
 
-            _activityWatcher.OnGameJoin += async (_, _) => await SetCurrentGame();
-            _activityWatcher.OnGameLeave += async (_, _) => await SetCurrentGame();
+            _activityWatcher.OnGameJoin += (_, _) => Task.Run(() => SetCurrentGame());
+            _activityWatcher.OnGameLeave += (_, _) => Task.Run(() => SetCurrentGame());
             _activityWatcher.OnRPCMessage += (_, message) => ProcessRPCMessage(message);
 
             _rpcClient.OnReady += (_, e) =>
@@ -61,22 +61,20 @@ namespace Bloxstrap.Integrations
 
             if (_currentPresence is null || _originalPresence is null)
             {
-                App.Logger.WriteLine(LOG_IDENT, "Presence not set, enqueuing");
+                App.Logger.WriteLine(LOG_IDENT, "Presence is not set, enqueuing message");
                 _messageQueue.Enqueue(message);
                 return;
             }
 
-            switch (message.Command)
-            {
-                case "SetLaunchData":
-                    _currentPresence.Buttons = GetButtons();
-                    break;
+            // a lot of repeated code here, could this somehow be cleaned up?
 
-                case "SetRichPresence":
-                    ProcessSetRichPresence(message, implicitUpdate);
-                    if (_smallImgBeingFetched != null || _largeImgBeingFetched != null)
-                        return;
-                    break;
+            if (message.Command == "SetLaunchData")
+            {
+                _currentPresence.Buttons = GetButtons();
+            }
+            else if (message.Command == "SetRichPresence")
+            {
+                ProcessSetRichPresence(message, implicitUpdate);
             }
 
             if (implicitUpdate)
@@ -100,14 +98,14 @@ namespace Bloxstrap.Integrations
                     new ThumbnailRequest
                     {
                         TargetId = (ulong)smallImg,
-                        Type = "Asset",
+                        Type = ThumbnailType.Asset,
                         Size = "512x512",
                         IsCircular = false
                     },
                     new ThumbnailRequest
                     {
                         TargetId = (ulong)largeImg,
-                        Type = "Asset",
+                        Type = ThumbnailType.Asset,
                         Size = "512x512",
                         IsCircular = false
                     }
@@ -130,7 +128,7 @@ namespace Bloxstrap.Integrations
                 string? url = await Thumbnails.GetThumbnailUrlAsync(new ThumbnailRequest
                 {
                     TargetId = (ulong)smallImg,
-                    Type = "Asset",
+                    Type = ThumbnailType.Asset,
                     Size = "512x512",
                     IsCircular = false
                 }, token);
@@ -145,7 +143,7 @@ namespace Bloxstrap.Integrations
                 string? url = await Thumbnails.GetThumbnailUrlAsync(new ThumbnailRequest
                 {
                     TargetId = (ulong)largeImg,
-                    Type = "Asset",
+                    Type = ThumbnailType.Asset,
                     Size = "512x512",
                     IsCircular = false
                 }, token);
@@ -174,7 +172,6 @@ namespace Bloxstrap.Integrations
             if (_fetchThumbnailsToken != null)
             {
                 _fetchThumbnailsToken.Cancel();
-                _fetchThumbnailsToken.Dispose();
                 _fetchThumbnailsToken = null;
             }
 
@@ -224,6 +221,7 @@ namespace Bloxstrap.Integrations
             else if (presenceData.TimestampEnd is not null)
                 _currentPresence.Timestamps.EndUnixMilliseconds = presenceData.TimestampEnd * 1000;
 
+            // set these to start fetching
             ulong? smallImgFetch = null;
             ulong? largeImgFetch = null;
 
@@ -346,6 +344,7 @@ namespace Bloxstrap.Integrations
 
             App.Logger.WriteLine(LOG_IDENT, $"Setting presence for Place ID {placeId}");
 
+            // preserve time spent playing if we're teleporting between places in the same universe
             var timeStarted = activity.TimeJoined;
 
             if (activity.RootActivity is not null)
@@ -356,6 +355,12 @@ namespace Bloxstrap.Integrations
                 try
                 {
                     await UniverseDetails.FetchSingle(activity.UniverseId);
+                }
+                catch (InvalidHTTPResponseException ex)
+                {
+                    App.Logger.WriteLine(LOG_IDENT, $"Universe {activity.UniverseId} is restricted");
+                    App.Logger.WriteException(LOG_IDENT, ex);
+                    return false;
                 }
                 catch (Exception ex)
                 {
@@ -376,7 +381,7 @@ namespace Bloxstrap.Integrations
                 var userDetails = await UserDetails.Fetch(activity.UserId);
 
                 smallImage = userDetails.Thumbnail.ImageUrl!;
-                smallImageText = $"Playing on {userDetails.Data.DisplayName} (@{userDetails.Data.Name})";
+                smallImageText = $"Playing on {userDetails.Data.DisplayName} (@{userDetails.Data.Name})"; // i.e. "axell (@Axelan_se)"
             }
 
             if (!_activityWatcher.InGame || placeId != activity.PlaceId)

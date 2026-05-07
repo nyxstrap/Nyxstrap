@@ -1,4 +1,4 @@
-﻿using DiscordRPC;
+﻿﻿using DiscordRPC;
 
 namespace Bloxstrap.Integrations
 {
@@ -45,7 +45,7 @@ namespace Bloxstrap.Integrations
             }
             catch
             {
-                // Fail Silently
+                // Silent fail
             }
         }
 
@@ -111,18 +111,19 @@ namespace Bloxstrap.Integrations
             {
                 var presence = new DiscordRPC.RichPresence
                 {
-                    Details = "Enrich your Roblox experience!",
+                    Details = "Customize Roblox to your liking!",
                     State = state,
                     Timestamps = _startTimestamps,
                     Assets = new Assets
                     {
                         LargeImageKey = "nyxstrap",
                         LargeImageText = "Nyxstrap",
-//                        SmallImageKey = "checkmark",
-//                        SmallImageText = $"v{App.Version}"
+                        SmallImageKey = "checkmark",
+                        SmallImageText = $"v{App.Version}"
                     },
                     Buttons = new[]
                     {
+                        new Button { Label = "GitHub", Url = "https://github.com/nyxstrap/Nyxstrap" },
                         new Button { Label = "Discord", Url = "https://discord.gg/P3HUKK8xcM" }
                     }
                 };
@@ -131,7 +132,7 @@ namespace Bloxstrap.Integrations
             }
             catch
             {
-                // Fail Silently
+                // Silent fail
             }
         }
 
@@ -160,7 +161,7 @@ namespace Bloxstrap.Integrations
             }
             catch
             {
-                // Fail Silently
+                // Silent fail
             }
 
             GC.SuppressFinalize(this);
